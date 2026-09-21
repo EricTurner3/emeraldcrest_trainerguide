@@ -1,0 +1,3680 @@
+[
+    {
+        "species": "SPECIES_BULBASAUR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_IVYSAUR"
+    },
+    {
+        "species": "SPECIES_IVYSAUR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_VENUSAUR"
+    },
+    {
+        "species": "SPECIES_CHARMANDER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_CHARMELEON"
+    },
+    {
+        "species": "SPECIES_CHARMELEON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_CHARIZARD"
+    },
+    {
+        "species": "SPECIES_SQUIRTLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_WARTORTLE"
+    },
+    {
+        "species": "SPECIES_WARTORTLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_BLASTOISE"
+    },
+    {
+        "species": "SPECIES_CATERPIE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "7",
+        "target": "SPECIES_METAPOD"
+    },
+    {
+        "species": "SPECIES_METAPOD",
+        "trigger": "EVO_LEVEL",
+        "requirement": "10",
+        "target": "SPECIES_BUTTERFREE"
+    },
+    {
+        "species": "SPECIES_WEEDLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "7",
+        "target": "SPECIES_KAKUNA"
+    },
+    {
+        "species": "SPECIES_KAKUNA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "10",
+        "target": "SPECIES_BEEDRILL"
+    },
+    {
+        "species": "SPECIES_PIDGEY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_PIDGEOTTO"
+    },
+    {
+        "species": "SPECIES_PIDGEOTTO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_PIDGEOT"
+    },
+    {
+        "species": "SPECIES_RATTATA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_RATICATE"
+    },
+    {
+        "species": "SPECIES_SPEAROW",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_FEAROW"
+    },
+    {
+        "species": "SPECIES_EKANS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_ARBOK"
+    },
+    {
+        "species": "SPECIES_PIKACHU",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_RAICHU"
+    },
+    {
+        "species": "SPECIES_PIKACHU",
+        "trigger": "EVO_MAPSEC",
+        "requirement": "MAPSEC_NEW_MAUVILLE",
+        "target": "SPECIES_RAICHU_ALOLAN"
+    },
+    {
+        "species": "SPECIES_PIKACHU",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SUMMER",
+        "target": "SPECIES_RAICHU_ALOLAN"
+    },
+    {
+        "species": "SPECIES_SANDSHREW",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_SANDSLASH"
+    },
+    {
+        "species": "SPECIES_NIDORAN_F",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_NIDORINA"
+    },
+    {
+        "species": "SPECIES_NIDORINA",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MOON_STONE",
+        "target": "SPECIES_NIDOQUEEN"
+    },
+    {
+        "species": "SPECIES_NIDORAN_M",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_NIDORINO"
+    },
+    {
+        "species": "SPECIES_NIDORINO",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MOON_STONE",
+        "target": "SPECIES_NIDOKING"
+    },
+    {
+        "species": "SPECIES_CLEFAIRY",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MOON_STONE",
+        "target": "SPECIES_CLEFABLE"
+    },
+    {
+        "species": "SPECIES_VULPIX",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_FIRE_STONE",
+        "target": "SPECIES_NINETALES"
+    },
+    {
+        "species": "SPECIES_JIGGLYPUFF",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MOON_STONE",
+        "target": "SPECIES_WIGGLYTUFF"
+    },
+    {
+        "species": "SPECIES_ZUBAT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_GOLBAT"
+    },
+    {
+        "species": "SPECIES_GOLBAT",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_CROBAT"
+    },
+    {
+        "species": "SPECIES_ODDISH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "21",
+        "target": "SPECIES_GLOOM"
+    },
+    {
+        "species": "SPECIES_GLOOM",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_VILEPLUME"
+    },
+    {
+        "species": "SPECIES_GLOOM",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SUN_STONE",
+        "target": "SPECIES_BELLOSSOM"
+    },
+    {
+        "species": "SPECIES_GLOOM",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SPRING",
+        "target": "SPECIES_BELLOSSOM"
+    },
+    {
+        "species": "SPECIES_PARAS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_PARASECT"
+    },
+    {
+        "species": "SPECIES_VENONAT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "31",
+        "target": "SPECIES_VENOMOTH"
+    },
+    {
+        "species": "SPECIES_DIGLETT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_DUGTRIO"
+    },
+    {
+        "species": "SPECIES_MEOWTH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_PERSIAN"
+    },
+    {
+        "species": "SPECIES_PSYDUCK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "33",
+        "target": "SPECIES_GOLDUCK"
+    },
+    {
+        "species": "SPECIES_MANKEY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_PRIMEAPE"
+    },
+    {
+        "species": "SPECIES_GROWLITHE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_FIRE_STONE",
+        "target": "SPECIES_ARCANINE"
+    },
+    {
+        "species": "SPECIES_GROWLITHE_HISUIAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_FIRE_STONE",
+        "target": "SPECIES_ARCANINE_HISUIAN"
+    },
+    {
+        "species": "SPECIES_POLIWAG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_POLIWHIRL"
+    },
+    {
+        "species": "SPECIES_POLIWHIRL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WATER_STONE",
+        "target": "SPECIES_POLIWRATH"
+    },
+    {
+        "species": "SPECIES_POLIWHIRL",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_KINGS_ROCK",
+        "target": "SPECIES_POLITOED"
+    },
+    {
+        "species": "SPECIES_POLIWHIRL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_KINGS_ROCK",
+        "target": "SPECIES_POLITOED"
+    },
+    {
+        "species": "SPECIES_ABRA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_KADABRA"
+    },
+    {
+        "species": "SPECIES_KADABRA",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_ALAKAZAM"
+    },
+    {
+        "species": "SPECIES_KADABRA",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_ALAKAZAM"
+    },
+    {
+        "species": "SPECIES_MACHOP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_MACHOKE"
+    },
+    {
+        "species": "SPECIES_MACHOKE",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_MACHAMP"
+    },
+    {
+        "species": "SPECIES_MACHOKE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_MACHAMP"
+    },
+    {
+        "species": "SPECIES_BELLSPROUT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "21",
+        "target": "SPECIES_WEEPINBELL"
+    },
+    {
+        "species": "SPECIES_WEEPINBELL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_VICTREEBEL"
+    },
+    {
+        "species": "SPECIES_TENTACOOL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_TENTACRUEL"
+    },
+    {
+        "species": "SPECIES_GEODUDE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_GRAVELER"
+    },
+    {
+        "species": "SPECIES_GRAVELER",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GOLEM"
+    },
+    {
+        "species": "SPECIES_GRAVELER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GOLEM"
+    },
+    {
+        "species": "SPECIES_PONYTA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_RAPIDASH"
+    },
+    {
+        "species": "SPECIES_SLOWPOKE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_SLOWBRO"
+    },
+    {
+        "species": "SPECIES_SLOWPOKE",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_KINGS_ROCK",
+        "target": "SPECIES_SLOWKING"
+    },
+    {
+        "species": "SPECIES_SLOWPOKE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_KINGS_ROCK",
+        "target": "SPECIES_SLOWKING"
+    },
+    {
+        "species": "SPECIES_MAGNEMITE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_MAGNETON"
+    },
+    {
+        "species": "SPECIES_MAGNETON",
+        "trigger": "EVO_MAPSEC",
+        "requirement": "MAPSEC_NEW_MAUVILLE",
+        "target": "SPECIES_MAGNEZONE"
+    },
+    {
+        "species": "SPECIES_MAGNETON",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_MAGNEZONE"
+    },
+    {
+        "species": "SPECIES_DODUO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "31",
+        "target": "SPECIES_DODRIO"
+    },
+    {
+        "species": "SPECIES_SEEL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_DEWGONG"
+    },
+    {
+        "species": "SPECIES_GRIMER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_MUK"
+    },
+    {
+        "species": "SPECIES_SHELLDER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WATER_STONE",
+        "target": "SPECIES_CLOYSTER"
+    },
+    {
+        "species": "SPECIES_GASTLY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_HAUNTER"
+    },
+    {
+        "species": "SPECIES_HAUNTER",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GENGAR"
+    },
+    {
+        "species": "SPECIES_HAUNTER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GENGAR"
+    },
+    {
+        "species": "SPECIES_ONIX",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_METAL_COAT",
+        "target": "SPECIES_STEELIX"
+    },
+    {
+        "species": "SPECIES_ONIX",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_METAL_COAT",
+        "target": "SPECIES_STEELIX"
+    },
+    {
+        "species": "SPECIES_DROWZEE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_HYPNO"
+    },
+    {
+        "species": "SPECIES_KRABBY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_KINGLER"
+    },
+    {
+        "species": "SPECIES_VOLTORB",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_ELECTRODE"
+    },
+    {
+        "species": "SPECIES_VOLTORB_HISUIAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_ELECTRODE_HISUIAN"
+    },
+    {
+        "species": "SPECIES_EXEGGCUTE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_EXEGGUTOR"
+    },
+    {
+        "species": "SPECIES_EXEGGCUTE",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_PETALBURG_WOODS",
+        "target": "SPECIES_EXEGGUTOR_ALOLAN"
+    },
+    {
+        "species": "SPECIES_CUBONE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_MAROWAK"
+    },
+    {
+        "species": "SPECIES_CUBONE",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "28",
+        "target": "SPECIES_MAROWAK_ALOLAN"
+    },
+    {
+        "species": "SPECIES_LICKITUNG",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_ROLLOUT",
+        "target": "SPECIES_LICKILICKY"
+    },
+    {
+        "species": "SPECIES_KOFFING",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_WEEZING"
+    },
+    {
+        "species": "SPECIES_KOFFING",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "35",
+        "target": "SPECIES_WEEZING_GALARIAN"
+    },
+    {
+        "species": "SPECIES_RHYHORN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_RHYDON"
+    },
+    {
+        "species": "SPECIES_RHYDON",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_PROTECTOR",
+        "target": "SPECIES_RHYPERIOR"
+    },
+    {
+        "species": "SPECIES_RHYDON",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_PROTECTOR",
+        "target": "SPECIES_RHYPERIOR"
+    },
+    {
+        "species": "SPECIES_CHANSEY",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_BLISSEY"
+    },
+    {
+        "species": "SPECIES_TANGELA",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_ANCIENT_POWER",
+        "target": "SPECIES_TANGROWTH"
+    },
+    {
+        "species": "SPECIES_HORSEA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_SEADRA"
+    },
+    {
+        "species": "SPECIES_SEADRA",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_DRAGON_SCALE",
+        "target": "SPECIES_KINGDRA"
+    },
+    {
+        "species": "SPECIES_SEADRA",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DRAGON_SCALE",
+        "target": "SPECIES_KINGDRA"
+    },
+    {
+        "species": "SPECIES_GOLDEEN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "33",
+        "target": "SPECIES_SEAKING"
+    },
+    {
+        "species": "SPECIES_STARYU",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WATER_STONE",
+        "target": "SPECIES_STARMIE"
+    },
+    {
+        "species": "SPECIES_SCYTHER",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_METAL_COAT",
+        "target": "SPECIES_SCIZOR"
+    },
+    {
+        "species": "SPECIES_SCYTHER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_BLACK_AUGURITE",
+        "target": "SPECIES_KLEAVOR"
+    },
+    {
+        "species": "SPECIES_SCYTHER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_METAL_COAT",
+        "target": "SPECIES_SCIZOR"
+    },
+    {
+        "species": "SPECIES_ELECTABUZZ",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_ELECTIRIZER",
+        "target": "SPECIES_ELECTIVIRE"
+    },
+    {
+        "species": "SPECIES_ELECTABUZZ",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ELECTIRIZER",
+        "target": "SPECIES_ELECTIVIRE"
+    },
+    {
+        "species": "SPECIES_MAGMAR",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_MAGMARIZER",
+        "target": "SPECIES_MAGMORTAR"
+    },
+    {
+        "species": "SPECIES_MAGMAR",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MAGMARIZER",
+        "target": "SPECIES_MAGMORTAR"
+    },
+    {
+        "species": "SPECIES_MAGIKARP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_GYARADOS"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_JOLTEON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WATER_STONE",
+        "target": "SPECIES_VAPOREON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_FIRE_STONE",
+        "target": "SPECIES_FLAREON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_FRIENDSHIP_DAY",
+        "requirement": "0",
+        "target": "SPECIES_ESPEON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_FRIENDSHIP_NIGHT",
+        "requirement": "0",
+        "target": "SPECIES_UMBREON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_PETALBURG_WOODS",
+        "target": "SPECIES_LEAFEON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_LEAFEON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+        "target": "SPECIES_GLACEON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_GLACEON"
+    },
+    {
+        "species": "SPECIES_EEVEE",
+        "trigger": "EVO_FRIENDSHIP_MOVE_TYPE",
+        "requirement": "TYPE_FAIRY",
+        "target": "SPECIES_SYLVEON"
+    },
+    {
+        "species": "SPECIES_PORYGON",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_UPGRADE",
+        "target": "SPECIES_PORYGON2"
+    },
+    {
+        "species": "SPECIES_PORYGON",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_UPGRADE",
+        "target": "SPECIES_PORYGON2"
+    },
+    {
+        "species": "SPECIES_OMANYTE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_OMASTAR"
+    },
+    {
+        "species": "SPECIES_KABUTO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_KABUTOPS"
+    },
+    {
+        "species": "SPECIES_DRATINI",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_DRAGONAIR"
+    },
+    {
+        "species": "SPECIES_DRAGONAIR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "55",
+        "target": "SPECIES_DRAGONITE"
+    },
+    {
+        "species": "SPECIES_CHIKORITA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_BAYLEEF"
+    },
+    {
+        "species": "SPECIES_BAYLEEF",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_MEGANIUM"
+    },
+    {
+        "species": "SPECIES_CYNDAQUIL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "14",
+        "target": "SPECIES_QUILAVA"
+    },
+    {
+        "species": "SPECIES_QUILAVA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_TYPHLOSION"
+    },
+    {
+        "species": "SPECIES_QUILAVA",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "36",
+        "target": "SPECIES_TYPHLOSION_HISUIAN"
+    },
+    {
+        "species": "SPECIES_TOTODILE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_CROCONAW"
+    },
+    {
+        "species": "SPECIES_CROCONAW",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_FERALIGATR"
+    },
+    {
+        "species": "SPECIES_SENTRET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "15",
+        "target": "SPECIES_FURRET"
+    },
+    {
+        "species": "SPECIES_HOOTHOOT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_NOCTOWL"
+    },
+    {
+        "species": "SPECIES_LEDYBA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_LEDIAN"
+    },
+    {
+        "species": "SPECIES_SPINARAK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_ARIADOS"
+    },
+    {
+        "species": "SPECIES_CHINCHOU",
+        "trigger": "EVO_LEVEL",
+        "requirement": "27",
+        "target": "SPECIES_LANTURN"
+    },
+    {
+        "species": "SPECIES_PICHU",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_PIKACHU"
+    },
+    {
+        "species": "SPECIES_CLEFFA",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_CLEFAIRY"
+    },
+    {
+        "species": "SPECIES_IGGLYBUFF",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_JIGGLYPUFF"
+    },
+    {
+        "species": "SPECIES_TOGEPI",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_TOGETIC"
+    },
+    {
+        "species": "SPECIES_TOGETIC",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_TOGEKISS"
+    },
+    {
+        "species": "SPECIES_NATU",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_XATU"
+    },
+    {
+        "species": "SPECIES_MAREEP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "15",
+        "target": "SPECIES_FLAAFFY"
+    },
+    {
+        "species": "SPECIES_FLAAFFY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_AMPHAROS"
+    },
+    {
+        "species": "SPECIES_MARILL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_AZUMARILL"
+    },
+    {
+        "species": "SPECIES_HOPPIP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_SKIPLOOM"
+    },
+    {
+        "species": "SPECIES_SKIPLOOM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "27",
+        "target": "SPECIES_JUMPLUFF"
+    },
+    {
+        "species": "SPECIES_AIPOM",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_DOUBLE_HIT",
+        "target": "SPECIES_AMBIPOM"
+    },
+    {
+        "species": "SPECIES_SUNKERN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SUN_STONE",
+        "target": "SPECIES_SUNFLORA"
+    },
+    {
+        "species": "SPECIES_SUNKERN",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SPRING",
+        "target": "SPECIES_SUNFLORA"
+    },
+    {
+        "species": "SPECIES_YANMA",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_ANCIENT_POWER",
+        "target": "SPECIES_YANMEGA"
+    },
+    {
+        "species": "SPECIES_WOOPER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_QUAGSIRE"
+    },
+    {
+        "species": "SPECIES_MURKROW",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DUSK_STONE",
+        "target": "SPECIES_HONCHKROW"
+    },
+    {
+        "species": "SPECIES_MISDREAVUS",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DUSK_STONE",
+        "target": "SPECIES_MISMAGIUS"
+    },
+    {
+        "species": "SPECIES_PINECO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "31",
+        "target": "SPECIES_FORRETRESS"
+    },
+    {
+        "species": "SPECIES_GLIGAR",
+        "trigger": "EVO_ITEM_HOLD_NIGHT",
+        "requirement": "ITEM_RAZOR_FANG",
+        "target": "SPECIES_GLISCOR"
+    },
+    {
+        "species": "SPECIES_GLIGAR",
+        "trigger": "EVO_ITEM_NIGHT",
+        "requirement": "ITEM_RAZOR_FANG",
+        "target": "SPECIES_GLISCOR"
+    },
+    {
+        "species": "SPECIES_SNUBBULL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "23",
+        "target": "SPECIES_GRANBULL"
+    },
+    {
+        "species": "SPECIES_SNEASEL",
+        "trigger": "EVO_ITEM_HOLD_NIGHT",
+        "requirement": "ITEM_RAZOR_CLAW",
+        "target": "SPECIES_WEAVILE"
+    },
+    {
+        "species": "SPECIES_SNEASEL",
+        "trigger": "EVO_ITEM_NIGHT",
+        "requirement": "ITEM_RAZOR_CLAW",
+        "target": "SPECIES_WEAVILE"
+    },
+    {
+        "species": "SPECIES_TEDDIURSA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_URSARING"
+    },
+    {
+        "species": "SPECIES_SLUGMA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_MAGCARGO"
+    },
+    {
+        "species": "SPECIES_SWINUB",
+        "trigger": "EVO_LEVEL",
+        "requirement": "33",
+        "target": "SPECIES_PILOSWINE"
+    },
+    {
+        "species": "SPECIES_PILOSWINE",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_ANCIENT_POWER",
+        "target": "SPECIES_MAMOSWINE"
+    },
+    {
+        "species": "SPECIES_REMORAID",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_OCTILLERY"
+    },
+    {
+        "species": "SPECIES_HOUNDOUR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_HOUNDOOM"
+    },
+    {
+        "species": "SPECIES_PHANPY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_DONPHAN"
+    },
+    {
+        "species": "SPECIES_PORYGON2",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_DUBIOUS_DISC",
+        "target": "SPECIES_PORYGON_Z"
+    },
+    {
+        "species": "SPECIES_PORYGON2",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DUBIOUS_DISC",
+        "target": "SPECIES_PORYGON_Z"
+    },
+    {
+        "species": "SPECIES_TYROGUE",
+        "trigger": "EVO_LEVEL_ATK_LT_DEF",
+        "requirement": "20",
+        "target": "SPECIES_HITMONCHAN"
+    },
+    {
+        "species": "SPECIES_TYROGUE",
+        "trigger": "EVO_LEVEL_ATK_GT_DEF",
+        "requirement": "20",
+        "target": "SPECIES_HITMONLEE"
+    },
+    {
+        "species": "SPECIES_TYROGUE",
+        "trigger": "EVO_LEVEL_ATK_EQ_DEF",
+        "requirement": "20",
+        "target": "SPECIES_HITMONTOP"
+    },
+    {
+        "species": "SPECIES_SMOOCHUM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_JYNX"
+    },
+    {
+        "species": "SPECIES_ELEKID",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_ELECTABUZZ"
+    },
+    {
+        "species": "SPECIES_MAGBY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_MAGMAR"
+    },
+    {
+        "species": "SPECIES_LARVITAR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_PUPITAR"
+    },
+    {
+        "species": "SPECIES_PUPITAR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "55",
+        "target": "SPECIES_TYRANITAR"
+    },
+    {
+        "species": "SPECIES_TREECKO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_GROVYLE"
+    },
+    {
+        "species": "SPECIES_GROVYLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SCEPTILE"
+    },
+    {
+        "species": "SPECIES_TORCHIC",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_COMBUSKEN"
+    },
+    {
+        "species": "SPECIES_COMBUSKEN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_BLAZIKEN"
+    },
+    {
+        "species": "SPECIES_MUDKIP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_MARSHTOMP"
+    },
+    {
+        "species": "SPECIES_MARSHTOMP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SWAMPERT"
+    },
+    {
+        "species": "SPECIES_POOCHYENA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_MIGHTYENA"
+    },
+    {
+        "species": "SPECIES_ZIGZAGOON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_LINOONE"
+    },
+    {
+        "species": "SPECIES_WURMPLE",
+        "trigger": "EVO_LEVEL_SILCOON",
+        "requirement": "7",
+        "target": "SPECIES_SILCOON"
+    },
+    {
+        "species": "SPECIES_WURMPLE",
+        "trigger": "EVO_LEVEL_CASCOON",
+        "requirement": "7",
+        "target": "SPECIES_CASCOON"
+    },
+    {
+        "species": "SPECIES_SILCOON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "10",
+        "target": "SPECIES_BEAUTIFLY"
+    },
+    {
+        "species": "SPECIES_CASCOON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "10",
+        "target": "SPECIES_DUSTOX"
+    },
+    {
+        "species": "SPECIES_LOTAD",
+        "trigger": "EVO_LEVEL",
+        "requirement": "14",
+        "target": "SPECIES_LOMBRE"
+    },
+    {
+        "species": "SPECIES_LOMBRE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WATER_STONE",
+        "target": "SPECIES_LUDICOLO"
+    },
+    {
+        "species": "SPECIES_SEEDOT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "14",
+        "target": "SPECIES_NUZLEAF"
+    },
+    {
+        "species": "SPECIES_NUZLEAF",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_SHIFTRY"
+    },
+    {
+        "species": "SPECIES_NINCADA",
+        "trigger": "EVO_LEVEL_NINJASK",
+        "requirement": "20",
+        "target": "SPECIES_NINJASK"
+    },
+    {
+        "species": "SPECIES_NINCADA",
+        "trigger": "EVO_LEVEL_SHEDINJA",
+        "requirement": "20",
+        "target": "SPECIES_SHEDINJA"
+    },
+    {
+        "species": "SPECIES_TAILLOW",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_SWELLOW"
+    },
+    {
+        "species": "SPECIES_SHROOMISH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "23",
+        "target": "SPECIES_BRELOOM"
+    },
+    {
+        "species": "SPECIES_WINGULL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_PELIPPER"
+    },
+    {
+        "species": "SPECIES_SURSKIT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_MASQUERAIN"
+    },
+    {
+        "species": "SPECIES_WAILMER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_WAILORD"
+    },
+    {
+        "species": "SPECIES_SKITTY",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MOON_STONE",
+        "target": "SPECIES_DELCATTY"
+    },
+    {
+        "species": "SPECIES_BALTOY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_CLAYDOL"
+    },
+    {
+        "species": "SPECIES_NOSEPASS",
+        "trigger": "EVO_MAPSEC",
+        "requirement": "MAPSEC_NEW_MAUVILLE",
+        "target": "SPECIES_PROBOPASS"
+    },
+    {
+        "species": "SPECIES_NOSEPASS",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_PROBOPASS"
+    },
+    {
+        "species": "SPECIES_BARBOACH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_WHISCASH"
+    },
+    {
+        "species": "SPECIES_CORPHISH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_CRAWDAUNT"
+    },
+    {
+        "species": "SPECIES_FEEBAS",
+        "trigger": "EVO_BEAUTY",
+        "requirement": "170",
+        "target": "SPECIES_MILOTIC"
+    },
+    {
+        "species": "SPECIES_FEEBAS",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_PRISM_SCALE",
+        "target": "SPECIES_MILOTIC"
+    },
+    {
+        "species": "SPECIES_FEEBAS",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_PRISM_SCALE",
+        "target": "SPECIES_MILOTIC"
+    },
+    {
+        "species": "SPECIES_CARVANHA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_SHARPEDO"
+    },
+    {
+        "species": "SPECIES_TRAPINCH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_VIBRAVA"
+    },
+    {
+        "species": "SPECIES_VIBRAVA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "45",
+        "target": "SPECIES_FLYGON"
+    },
+    {
+        "species": "SPECIES_MAKUHITA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_HARIYAMA"
+    },
+    {
+        "species": "SPECIES_ELECTRIKE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_MANECTRIC"
+    },
+    {
+        "species": "SPECIES_NUMEL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "33",
+        "target": "SPECIES_CAMERUPT"
+    },
+    {
+        "species": "SPECIES_SPHEAL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_SEALEO"
+    },
+    {
+        "species": "SPECIES_SEALEO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "44",
+        "target": "SPECIES_WALREIN"
+    },
+    {
+        "species": "SPECIES_CACNEA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_CACTURNE"
+    },
+    {
+        "species": "SPECIES_SNORUNT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_GLALIE"
+    },
+    {
+        "species": "SPECIES_SNORUNT",
+        "trigger": "EVO_ITEM_FEMALE",
+        "requirement": "ITEM_DAWN_STONE",
+        "target": "SPECIES_FROSLASS"
+    },
+    {
+        "species": "SPECIES_AZURILL",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_MARILL"
+    },
+    {
+        "species": "SPECIES_SPOINK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_GRUMPIG"
+    },
+    {
+        "species": "SPECIES_MEDITITE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_MEDICHAM"
+    },
+    {
+        "species": "SPECIES_SWABLU",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_ALTARIA"
+    },
+    {
+        "species": "SPECIES_WYNAUT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "15",
+        "target": "SPECIES_WOBBUFFET"
+    },
+    {
+        "species": "SPECIES_DUSKULL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_DUSCLOPS"
+    },
+    {
+        "species": "SPECIES_DUSCLOPS",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_REAPER_CLOTH",
+        "target": "SPECIES_DUSKNOIR"
+    },
+    {
+        "species": "SPECIES_DUSCLOPS",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_REAPER_CLOTH",
+        "target": "SPECIES_DUSKNOIR"
+    },
+    {
+        "species": "SPECIES_ROSELIA",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_ROSERADE"
+    },
+    {
+        "species": "SPECIES_SLAKOTH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_VIGOROTH"
+    },
+    {
+        "species": "SPECIES_VIGOROTH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SLAKING"
+    },
+    {
+        "species": "SPECIES_GULPIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_SWALOT"
+    },
+    {
+        "species": "SPECIES_WHISMUR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_LOUDRED"
+    },
+    {
+        "species": "SPECIES_LOUDRED",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_EXPLOUD"
+    },
+    {
+        "species": "SPECIES_CLAMPERL",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_DEEP_SEA_TOOTH",
+        "target": "SPECIES_HUNTAIL"
+    },
+    {
+        "species": "SPECIES_CLAMPERL",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_DEEP_SEA_SCALE",
+        "target": "SPECIES_GOREBYSS"
+    },
+    {
+        "species": "SPECIES_CLAMPERL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DEEP_SEA_TOOTH",
+        "target": "SPECIES_HUNTAIL"
+    },
+    {
+        "species": "SPECIES_CLAMPERL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DEEP_SEA_SCALE",
+        "target": "SPECIES_GOREBYSS"
+    },
+    {
+        "species": "SPECIES_SHUPPET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_BANETTE"
+    },
+    {
+        "species": "SPECIES_ARON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_LAIRON"
+    },
+    {
+        "species": "SPECIES_LAIRON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_AGGRON"
+    },
+    {
+        "species": "SPECIES_LILEEP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_CRADILY"
+    },
+    {
+        "species": "SPECIES_ANORITH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_ARMALDO"
+    },
+    {
+        "species": "SPECIES_RALTS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_KIRLIA"
+    },
+    {
+        "species": "SPECIES_KIRLIA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_GARDEVOIR"
+    },
+    {
+        "species": "SPECIES_KIRLIA",
+        "trigger": "EVO_ITEM_MALE",
+        "requirement": "ITEM_DAWN_STONE",
+        "target": "SPECIES_GALLADE"
+    },
+    {
+        "species": "SPECIES_BAGON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_SHELGON"
+    },
+    {
+        "species": "SPECIES_SHELGON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "50",
+        "target": "SPECIES_SALAMENCE"
+    },
+    {
+        "species": "SPECIES_BELDUM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_METANG"
+    },
+    {
+        "species": "SPECIES_METANG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "45",
+        "target": "SPECIES_METAGROSS"
+    },
+    {
+        "species": "SPECIES_TURTWIG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_GROTLE"
+    },
+    {
+        "species": "SPECIES_GROTLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_TORTERRA"
+    },
+    {
+        "species": "SPECIES_CHIMCHAR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "14",
+        "target": "SPECIES_MONFERNO"
+    },
+    {
+        "species": "SPECIES_MONFERNO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_INFERNAPE"
+    },
+    {
+        "species": "SPECIES_PIPLUP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_PRINPLUP"
+    },
+    {
+        "species": "SPECIES_PRINPLUP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_EMPOLEON"
+    },
+    {
+        "species": "SPECIES_STARLY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "14",
+        "target": "SPECIES_STARAVIA"
+    },
+    {
+        "species": "SPECIES_STARAVIA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_STARAPTOR"
+    },
+    {
+        "species": "SPECIES_BIDOOF",
+        "trigger": "EVO_LEVEL",
+        "requirement": "15",
+        "target": "SPECIES_BIBAREL"
+    },
+    {
+        "species": "SPECIES_KRICKETOT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "10",
+        "target": "SPECIES_KRICKETUNE"
+    },
+    {
+        "species": "SPECIES_SHINX",
+        "trigger": "EVO_LEVEL",
+        "requirement": "15",
+        "target": "SPECIES_LUXIO"
+    },
+    {
+        "species": "SPECIES_LUXIO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_LUXRAY"
+    },
+    {
+        "species": "SPECIES_BUDEW",
+        "trigger": "EVO_FRIENDSHIP_DAY",
+        "requirement": "0",
+        "target": "SPECIES_ROSELIA"
+    },
+    {
+        "species": "SPECIES_CRANIDOS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_RAMPARDOS"
+    },
+    {
+        "species": "SPECIES_SHIELDON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_BASTIODON"
+    },
+    {
+        "species": "SPECIES_BURMY",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "20",
+        "target": "SPECIES_WORMADAM"
+    },
+    {
+        "species": "SPECIES_BURMY",
+        "trigger": "EVO_LEVEL_MALE",
+        "requirement": "20",
+        "target": "SPECIES_MOTHIM"
+    },
+    {
+        "species": "SPECIES_COMBEE",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "21",
+        "target": "SPECIES_VESPIQUEN"
+    },
+    {
+        "species": "SPECIES_BUIZEL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_FLOATZEL"
+    },
+    {
+        "species": "SPECIES_CHERUBI",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_CHERRIM"
+    },
+    {
+        "species": "SPECIES_SHELLOS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_GASTRODON"
+    },
+    {
+        "species": "SPECIES_DRIFLOON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_DRIFBLIM"
+    },
+    {
+        "species": "SPECIES_BUNEARY",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_LOPUNNY"
+    },
+    {
+        "species": "SPECIES_GLAMEOW",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_PURUGLY"
+    },
+    {
+        "species": "SPECIES_CHINGLING",
+        "trigger": "EVO_FRIENDSHIP_NIGHT",
+        "requirement": "0",
+        "target": "SPECIES_CHIMECHO"
+    },
+    {
+        "species": "SPECIES_STUNKY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_SKUNTANK"
+    },
+    {
+        "species": "SPECIES_BRONZOR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "33",
+        "target": "SPECIES_BRONZONG"
+    },
+    {
+        "species": "SPECIES_BONSLY",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_MIMIC",
+        "target": "SPECIES_SUDOWOODO"
+    },
+    {
+        "species": "SPECIES_MIME_JR",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_MIMIC",
+        "target": "SPECIES_MR_MIME"
+    },
+    {
+        "species": "SPECIES_MIME_JR",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "20",
+        "target": "SPECIES_MR_MIME_GALARIAN"
+    },
+    {
+        "species": "SPECIES_HAPPINY",
+        "trigger": "EVO_ITEM_HOLD_DAY",
+        "requirement": "ITEM_OVAL_STONE",
+        "target": "SPECIES_CHANSEY"
+    },
+    {
+        "species": "SPECIES_HAPPINY",
+        "trigger": "EVO_ITEM_DAY",
+        "requirement": "ITEM_OVAL_STONE",
+        "target": "SPECIES_CHANSEY"
+    },
+    {
+        "species": "SPECIES_GIBLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_GABITE"
+    },
+    {
+        "species": "SPECIES_GABITE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "48",
+        "target": "SPECIES_GARCHOMP"
+    },
+    {
+        "species": "SPECIES_MUNCHLAX",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_SNORLAX"
+    },
+    {
+        "species": "SPECIES_RIOLU",
+        "trigger": "EVO_FRIENDSHIP_DAY",
+        "requirement": "0",
+        "target": "SPECIES_LUCARIO"
+    },
+    {
+        "species": "SPECIES_HIPPOPOTAS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_HIPPOWDON"
+    },
+    {
+        "species": "SPECIES_SKORUPI",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_DRAPION"
+    },
+    {
+        "species": "SPECIES_CROAGUNK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_TOXICROAK"
+    },
+    {
+        "species": "SPECIES_FINNEON",
+        "trigger": "EVO_LEVEL",
+        "requirement": "31",
+        "target": "SPECIES_LUMINEON"
+    },
+    {
+        "species": "SPECIES_MANTYKE",
+        "trigger": "EVO_SPECIFIC_MON_IN_PARTY",
+        "requirement": "SPECIES_REMORAID",
+        "target": "SPECIES_MANTINE"
+    },
+    {
+        "species": "SPECIES_SNOVER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_ABOMASNOW"
+    },
+    {
+        "species": "SPECIES_SNIVY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_SERVINE"
+    },
+    {
+        "species": "SPECIES_SERVINE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SERPERIOR"
+    },
+    {
+        "species": "SPECIES_TEPIG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_PIGNITE"
+    },
+    {
+        "species": "SPECIES_PIGNITE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_EMBOAR"
+    },
+    {
+        "species": "SPECIES_OSHAWOTT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_DEWOTT"
+    },
+    {
+        "species": "SPECIES_DEWOTT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SAMUROTT"
+    },
+    {
+        "species": "SPECIES_DEWOTT",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "36",
+        "target": "SPECIES_SAMUROTT_HISUIAN"
+    },
+    {
+        "species": "SPECIES_PATRAT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_WATCHOG"
+    },
+    {
+        "species": "SPECIES_LILLIPUP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_HERDIER"
+    },
+    {
+        "species": "SPECIES_HERDIER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_STOUTLAND"
+    },
+    {
+        "species": "SPECIES_PURRLOIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_LIEPARD"
+    },
+    {
+        "species": "SPECIES_PANSAGE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LEAF_STONE",
+        "target": "SPECIES_SIMISAGE"
+    },
+    {
+        "species": "SPECIES_PANSEAR",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_FIRE_STONE",
+        "target": "SPECIES_SIMISEAR"
+    },
+    {
+        "species": "SPECIES_PANPOUR",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WATER_STONE",
+        "target": "SPECIES_SIMIPOUR"
+    },
+    {
+        "species": "SPECIES_MUNNA",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MOON_STONE",
+        "target": "SPECIES_MUSHARNA"
+    },
+    {
+        "species": "SPECIES_PIDOVE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "21",
+        "target": "SPECIES_TRANQUILL"
+    },
+    {
+        "species": "SPECIES_TRANQUILL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_UNFEZANT"
+    },
+    {
+        "species": "SPECIES_BLITZLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "27",
+        "target": "SPECIES_ZEBSTRIKA"
+    },
+    {
+        "species": "SPECIES_ROGGENROLA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_BOLDORE"
+    },
+    {
+        "species": "SPECIES_BOLDORE",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GIGALITH"
+    },
+    {
+        "species": "SPECIES_BOLDORE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GIGALITH"
+    },
+    {
+        "species": "SPECIES_WOOBAT",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_SWOOBAT"
+    },
+    {
+        "species": "SPECIES_DRILBUR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "31",
+        "target": "SPECIES_EXCADRILL"
+    },
+    {
+        "species": "SPECIES_TIMBURR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_GURDURR"
+    },
+    {
+        "species": "SPECIES_GURDURR",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_CONKELDURR"
+    },
+    {
+        "species": "SPECIES_GURDURR",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_CONKELDURR"
+    },
+    {
+        "species": "SPECIES_TYMPOLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_PALPITOAD"
+    },
+    {
+        "species": "SPECIES_PALPITOAD",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SEISMITOAD"
+    },
+    {
+        "species": "SPECIES_SEWADDLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_SWADLOON"
+    },
+    {
+        "species": "SPECIES_SWADLOON",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_LEAVANNY"
+    },
+    {
+        "species": "SPECIES_VENIPEDE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_WHIRLIPEDE"
+    },
+    {
+        "species": "SPECIES_WHIRLIPEDE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_SCOLIPEDE"
+    },
+    {
+        "species": "SPECIES_COTTONEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SUN_STONE",
+        "target": "SPECIES_WHIMSICOTT"
+    },
+    {
+        "species": "SPECIES_PETILIL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SUN_STONE",
+        "target": "SPECIES_LILLIGANT"
+    },
+    {
+        "species": "SPECIES_PETILIL",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_ROUTE120",
+        "target": "SPECIES_LILLIGANT_HISUIAN"
+    },
+    {
+        "species": "SPECIES_PETILIL",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SPRING",
+        "target": "SPECIES_LILLIGANT_HISUIAN"
+    },
+    {
+        "species": "SPECIES_SANDILE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "29",
+        "target": "SPECIES_KROKOROK"
+    },
+    {
+        "species": "SPECIES_KROKOROK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_KROOKODILE"
+    },
+    {
+        "species": "SPECIES_DARUMAKA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_DARMANITAN"
+    },
+    {
+        "species": "SPECIES_DWEBBLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_CRUSTLE"
+    },
+    {
+        "species": "SPECIES_SCRAGGY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "39",
+        "target": "SPECIES_SCRAFTY"
+    },
+    {
+        "species": "SPECIES_YAMASK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_COFAGRIGUS"
+    },
+    {
+        "species": "SPECIES_TIRTOUGA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_CARRACOSTA"
+    },
+    {
+        "species": "SPECIES_ARCHEN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_ARCHEOPS"
+    },
+    {
+        "species": "SPECIES_TRUBBISH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_GARBODOR"
+    },
+    {
+        "species": "SPECIES_ZORUA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_ZOROARK"
+    },
+    {
+        "species": "SPECIES_ZORUA_HISUIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_ZOROARK_HISUIAN"
+    },
+    {
+        "species": "SPECIES_MINCCINO",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_CINCCINO"
+    },
+    {
+        "species": "SPECIES_GOTHITA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_GOTHORITA"
+    },
+    {
+        "species": "SPECIES_GOTHORITA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "41",
+        "target": "SPECIES_GOTHITELLE"
+    },
+    {
+        "species": "SPECIES_SOLOSIS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_DUOSION"
+    },
+    {
+        "species": "SPECIES_DUOSION",
+        "trigger": "EVO_LEVEL",
+        "requirement": "41",
+        "target": "SPECIES_REUNICLUS"
+    },
+    {
+        "species": "SPECIES_DUCKLETT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_SWANNA"
+    },
+    {
+        "species": "SPECIES_VANILLITE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_VANILLISH"
+    },
+    {
+        "species": "SPECIES_VANILLISH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "47",
+        "target": "SPECIES_VANILLUXE"
+    },
+    {
+        "species": "SPECIES_DEERLING",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_SAWSBUCK"
+    },
+    {
+        "species": "SPECIES_DEERLING",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SPRING",
+        "target": "SPECIES_SAWSBUCK"
+    },
+    {
+        "species": "SPECIES_KARRABLAST",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_ESCAVALIER"
+    },
+    {
+        "species": "SPECIES_FOONGUS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "39",
+        "target": "SPECIES_AMOONGUSS"
+    },
+    {
+        "species": "SPECIES_FRILLISH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_JELLICENT"
+    },
+    {
+        "species": "SPECIES_JOLTIK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_GALVANTULA"
+    },
+    {
+        "species": "SPECIES_FERROSEED",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_FERROTHORN"
+    },
+    {
+        "species": "SPECIES_KLINK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_KLANG"
+    },
+    {
+        "species": "SPECIES_KLANG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "49",
+        "target": "SPECIES_KLINKLANG"
+    },
+    {
+        "species": "SPECIES_TYNAMO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "39",
+        "target": "SPECIES_EELEKTRIK"
+    },
+    {
+        "species": "SPECIES_EELEKTRIK",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_EELEKTROSS"
+    },
+    {
+        "species": "SPECIES_ELGYEM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_BEHEEYEM"
+    },
+    {
+        "species": "SPECIES_LITWICK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "41",
+        "target": "SPECIES_LAMPENT"
+    },
+    {
+        "species": "SPECIES_LAMPENT",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DUSK_STONE",
+        "target": "SPECIES_CHANDELURE"
+    },
+    {
+        "species": "SPECIES_AXEW",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_FRAXURE"
+    },
+    {
+        "species": "SPECIES_FRAXURE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "48",
+        "target": "SPECIES_HAXORUS"
+    },
+    {
+        "species": "SPECIES_CUBCHOO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_BEARTIC"
+    },
+    {
+        "species": "SPECIES_SHELMET",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_ACCELGOR"
+    },
+    {
+        "species": "SPECIES_MIENFOO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "50",
+        "target": "SPECIES_MIENSHAO"
+    },
+    {
+        "species": "SPECIES_GOLETT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "43",
+        "target": "SPECIES_GOLURK"
+    },
+    {
+        "species": "SPECIES_PAWNIARD",
+        "trigger": "EVO_LEVEL",
+        "requirement": "52",
+        "target": "SPECIES_BISHARP"
+    },
+    {
+        "species": "SPECIES_BISHARP",
+        "trigger": "EVO_ITEM_HOLD",
+        "requirement": "ITEM_LEADERS_CREST",
+        "target": "SPECIES_KINGAMBIT"
+    },
+    {
+        "species": "SPECIES_RUFFLET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "54",
+        "target": "SPECIES_BRAVIARY"
+    },
+    {
+        "species": "SPECIES_RUFFLET",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_MT_PYRE_SUMMIT",
+        "target": "SPECIES_BRAVIARY_HISUIAN"
+    },
+    {
+        "species": "SPECIES_VULLABY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "54",
+        "target": "SPECIES_MANDIBUZZ"
+    },
+    {
+        "species": "SPECIES_DEINO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "50",
+        "target": "SPECIES_ZWEILOUS"
+    },
+    {
+        "species": "SPECIES_ZWEILOUS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "64",
+        "target": "SPECIES_HYDREIGON"
+    },
+    {
+        "species": "SPECIES_LARVESTA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "59",
+        "target": "SPECIES_VOLCARONA"
+    },
+    {
+        "species": "SPECIES_CHESPIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_QUILLADIN"
+    },
+    {
+        "species": "SPECIES_QUILLADIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_CHESNAUGHT"
+    },
+    {
+        "species": "SPECIES_FENNEKIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_BRAIXEN"
+    },
+    {
+        "species": "SPECIES_BRAIXEN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_DELPHOX"
+    },
+    {
+        "species": "SPECIES_FROAKIE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_FROGADIER"
+    },
+    {
+        "species": "SPECIES_FROGADIER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_GRENINJA"
+    },
+    {
+        "species": "SPECIES_BUNNELBY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_DIGGERSBY"
+    },
+    {
+        "species": "SPECIES_FLETCHLING",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_FLETCHINDER"
+    },
+    {
+        "species": "SPECIES_FLETCHINDER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_TALONFLAME"
+    },
+    {
+        "species": "SPECIES_SCATTERBUG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "9",
+        "target": "SPECIES_SPEWPA"
+    },
+    {
+        "species": "SPECIES_SPEWPA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "12",
+        "target": "SPECIES_VIVILLON"
+    },
+    {
+        "species": "SPECIES_LITLEO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_PYROAR"
+    },
+    {
+        "species": "SPECIES_FLABEBE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "19",
+        "target": "SPECIES_FLOETTE"
+    },
+    {
+        "species": "SPECIES_FLOETTE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_FLORGES"
+    },
+    {
+        "species": "SPECIES_SKIDDO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_GOGOAT"
+    },
+    {
+        "species": "SPECIES_PANCHAM",
+        "trigger": "EVO_LEVEL_DARK_TYPE_MON_IN_PARTY",
+        "requirement": "32",
+        "target": "SPECIES_PANGORO"
+    },
+    {
+        "species": "SPECIES_ESPURR",
+        "trigger": "EVO_LEVEL_MALE",
+        "requirement": "25",
+        "target": "SPECIES_MEOWSTIC"
+    },
+    {
+        "species": "SPECIES_ESPURR",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "25",
+        "target": "SPECIES_MEOWSTIC_FEMALE"
+    },
+    {
+        "species": "SPECIES_HONEDGE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_DOUBLADE"
+    },
+    {
+        "species": "SPECIES_DOUBLADE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_DUSK_STONE",
+        "target": "SPECIES_AEGISLASH"
+    },
+    {
+        "species": "SPECIES_SPRITZEE",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_SACHET",
+        "target": "SPECIES_AROMATISSE"
+    },
+    {
+        "species": "SPECIES_SPRITZEE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SACHET",
+        "target": "SPECIES_AROMATISSE"
+    },
+    {
+        "species": "SPECIES_SWIRLIX",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_WHIPPED_DREAM",
+        "target": "SPECIES_SLURPUFF"
+    },
+    {
+        "species": "SPECIES_SWIRLIX",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_WHIPPED_DREAM",
+        "target": "SPECIES_SLURPUFF"
+    },
+    {
+        "species": "SPECIES_INKAY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_MALAMAR"
+    },
+    {
+        "species": "SPECIES_BINACLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "39",
+        "target": "SPECIES_BARBARACLE"
+    },
+    {
+        "species": "SPECIES_SKRELP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "48",
+        "target": "SPECIES_DRAGALGE"
+    },
+    {
+        "species": "SPECIES_CLAUNCHER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_CLAWITZER"
+    },
+    {
+        "species": "SPECIES_HELIOPTILE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SUN_STONE",
+        "target": "SPECIES_HELIOLISK"
+    },
+    {
+        "species": "SPECIES_TYRUNT",
+        "trigger": "EVO_LEVEL_DAY",
+        "requirement": "39",
+        "target": "SPECIES_TYRANTRUM"
+    },
+    {
+        "species": "SPECIES_AMAURA",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "39",
+        "target": "SPECIES_AURORUS"
+    },
+    {
+        "species": "SPECIES_GOOMY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_SLIGGOO"
+    },
+    {
+        "species": "SPECIES_GOOMY",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_ROUTE119",
+        "target": "SPECIES_SLIGGOO_HISUIAN"
+    },
+    {
+        "species": "SPECIES_SLIGGOO",
+        "trigger": "EVO_LEVEL_RAIN",
+        "requirement": "50",
+        "target": "SPECIES_GOODRA"
+    },
+    {
+        "species": "SPECIES_SLIGGOO",
+        "trigger": "EVO_LEVEL_FOG",
+        "requirement": "50",
+        "target": "SPECIES_GOODRA"
+    },
+    {
+        "species": "SPECIES_SLIGGOO_HISUIAN",
+        "trigger": "EVO_LEVEL_RAIN",
+        "requirement": "50",
+        "target": "SPECIES_GOODRA_HISUIAN"
+    },
+    {
+        "species": "SPECIES_SLIGGOO_HISUIAN",
+        "trigger": "EVO_LEVEL_FOG",
+        "requirement": "50",
+        "target": "SPECIES_GOODRA_HISUIAN"
+    },
+    {
+        "species": "SPECIES_PHANTUMP",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_TREVENANT"
+    },
+    {
+        "species": "SPECIES_PHANTUMP",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_TREVENANT"
+    },
+    {
+        "species": "SPECIES_PHANTUMP",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_FALL",
+        "target": "SPECIES_TREVENANT"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GOURGEIST"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GOURGEIST"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_FALL",
+        "target": "SPECIES_GOURGEIST"
+    },
+    {
+        "species": "SPECIES_BERGMITE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "37",
+        "target": "SPECIES_AVALUGG"
+    },
+    {
+        "species": "SPECIES_BERGMITE",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+        "target": "SPECIES_AVALUGG_HISUIAN"
+    },
+    {
+        "species": "SPECIES_BERGMITE",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_AVALUGG_HISUIAN"
+    },
+    {
+        "species": "SPECIES_NOIBAT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "48",
+        "target": "SPECIES_NOIVERN"
+    },
+    {
+        "species": "SPECIES_ROWLET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_DARTRIX"
+    },
+    {
+        "species": "SPECIES_DARTRIX",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_DECIDUEYE"
+    },
+    {
+        "species": "SPECIES_DARTRIX",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "34",
+        "target": "SPECIES_DECIDUEYE_HISUIAN"
+    },
+    {
+        "species": "SPECIES_LITTEN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_TORRACAT"
+    },
+    {
+        "species": "SPECIES_TORRACAT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_INCINEROAR"
+    },
+    {
+        "species": "SPECIES_POPPLIO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "17",
+        "target": "SPECIES_BRIONNE"
+    },
+    {
+        "species": "SPECIES_BRIONNE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_PRIMARINA"
+    },
+    {
+        "species": "SPECIES_PIKIPEK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "14",
+        "target": "SPECIES_TRUMBEAK"
+    },
+    {
+        "species": "SPECIES_TRUMBEAK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_TOUCANNON"
+    },
+    {
+        "species": "SPECIES_YUNGOOS",
+        "trigger": "EVO_LEVEL_DAY",
+        "requirement": "20",
+        "target": "SPECIES_GUMSHOOS"
+    },
+    {
+        "species": "SPECIES_GRUBBIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_CHARJABUG"
+    },
+    {
+        "species": "SPECIES_CHARJABUG",
+        "trigger": "EVO_MAPSEC",
+        "requirement": "MAPSEC_NEW_MAUVILLE",
+        "target": "SPECIES_VIKAVOLT"
+    },
+    {
+        "species": "SPECIES_CHARJABUG",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_VIKAVOLT"
+    },
+    {
+        "species": "SPECIES_CRABRAWLER",
+        "trigger": "EVO_SPECIFIC_MAP",
+        "requirement": "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+        "target": "SPECIES_CRABOMINABLE"
+    },
+    {
+        "species": "SPECIES_CRABRAWLER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_CRABOMINABLE"
+    },
+    {
+        "species": "SPECIES_CRABRAWLER",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_CRABOMINABLE"
+    },
+    {
+        "species": "SPECIES_CUTIEFLY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_RIBOMBEE"
+    },
+    {
+        "species": "SPECIES_ROCKRUFF",
+        "trigger": "EVO_LEVEL_DAY",
+        "requirement": "25",
+        "target": "SPECIES_LYCANROC"
+    },
+    {
+        "species": "SPECIES_ROCKRUFF",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "25",
+        "target": "SPECIES_LYCANROC_MIDNIGHT"
+    },
+    {
+        "species": "SPECIES_MAREANIE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_TOXAPEX"
+    },
+    {
+        "species": "SPECIES_MUDBRAY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_MUDSDALE"
+    },
+    {
+        "species": "SPECIES_DEWPIDER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_ARAQUANID"
+    },
+    {
+        "species": "SPECIES_FOMANTIS",
+        "trigger": "EVO_LEVEL_DAY",
+        "requirement": "34",
+        "target": "SPECIES_LURANTIS"
+    },
+    {
+        "species": "SPECIES_MORELULL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_SHIINOTIC"
+    },
+    {
+        "species": "SPECIES_SALANDIT",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "33",
+        "target": "SPECIES_SALAZZLE"
+    },
+    {
+        "species": "SPECIES_STUFFUL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "27",
+        "target": "SPECIES_BEWEAR"
+    },
+    {
+        "species": "SPECIES_BOUNSWEET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_STEENEE"
+    },
+    {
+        "species": "SPECIES_STEENEE",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_STOMP",
+        "target": "SPECIES_TSAREENA"
+    },
+    {
+        "species": "SPECIES_WIMPOD",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_GOLISOPOD"
+    },
+    {
+        "species": "SPECIES_SANDYGAST",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_PALOSSAND"
+    },
+    {
+        "species": "SPECIES_TYPE_NULL",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "0",
+        "target": "SPECIES_SILVALLY"
+    },
+    {
+        "species": "SPECIES_JANGMO_O",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_HAKAMO_O"
+    },
+    {
+        "species": "SPECIES_HAKAMO_O",
+        "trigger": "EVO_LEVEL",
+        "requirement": "45",
+        "target": "SPECIES_KOMMO_O"
+    },
+    {
+        "species": "SPECIES_COSMOG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "43",
+        "target": "SPECIES_COSMOEM"
+    },
+    {
+        "species": "SPECIES_COSMOEM",
+        "trigger": "EVO_LEVEL_DAY",
+        "requirement": "53",
+        "target": "SPECIES_SOLGALEO"
+    },
+    {
+        "species": "SPECIES_COSMOEM",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "53",
+        "target": "SPECIES_LUNALA"
+    },
+    {
+        "species": "SPECIES_POIPOLE",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_DRAGON_PULSE",
+        "target": "SPECIES_NAGANADEL"
+    },
+    {
+        "species": "SPECIES_MELTAN",
+        "trigger": "EVO_TRADE_ITEM",
+        "requirement": "ITEM_METAL_COAT",
+        "target": "SPECIES_MELMETAL"
+    },
+    {
+        "species": "SPECIES_GROOKEY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_THWACKEY"
+    },
+    {
+        "species": "SPECIES_THWACKEY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_RILLABOOM"
+    },
+    {
+        "species": "SPECIES_SCORBUNNY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_RABOOT"
+    },
+    {
+        "species": "SPECIES_RABOOT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_CINDERACE"
+    },
+    {
+        "species": "SPECIES_SOBBLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_DRIZZILE"
+    },
+    {
+        "species": "SPECIES_DRIZZILE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_INTELEON"
+    },
+    {
+        "species": "SPECIES_SKWOVET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_GREEDENT"
+    },
+    {
+        "species": "SPECIES_ROOKIDEE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_CORVISQUIRE"
+    },
+    {
+        "species": "SPECIES_CORVISQUIRE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_CORVIKNIGHT"
+    },
+    {
+        "species": "SPECIES_BLIPBUG",
+        "trigger": "EVO_LEVEL",
+        "requirement": "10",
+        "target": "SPECIES_DOTTLER"
+    },
+    {
+        "species": "SPECIES_DOTTLER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_ORBEETLE"
+    },
+    {
+        "species": "SPECIES_NICKIT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_THIEVUL"
+    },
+    {
+        "species": "SPECIES_GOSSIFLEUR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_ELDEGOSS"
+    },
+    {
+        "species": "SPECIES_WOOLOO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_DUBWOOL"
+    },
+    {
+        "species": "SPECIES_CHEWTLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "22",
+        "target": "SPECIES_DREDNAW"
+    },
+    {
+        "species": "SPECIES_YAMPER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_BOLTUND"
+    },
+    {
+        "species": "SPECIES_ROLYCOLY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_CARKOL"
+    },
+    {
+        "species": "SPECIES_CARKOL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_COALOSSAL"
+    },
+    {
+        "species": "SPECIES_APPLIN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_TART_APPLE",
+        "target": "SPECIES_FLAPPLE"
+    },
+    {
+        "species": "SPECIES_APPLIN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SWEET_APPLE",
+        "target": "SPECIES_APPLETUN"
+    },
+    {
+        "species": "SPECIES_APPLIN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SYRUPY_APPLE",
+        "target": "SPECIES_DIPPLIN"
+    },
+    {
+        "species": "SPECIES_DIPPLIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "48",
+        "target": "SPECIES_HYDRAPPLE"
+    },
+    {
+        "species": "SPECIES_SILICOBRA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SANDACONDA"
+    },
+    {
+        "species": "SPECIES_ARROKUDA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_BARRASKEWDA"
+    },
+    {
+        "species": "SPECIES_TOXEL",
+        "trigger": "EVO_LEVEL_NATURE_AMPED",
+        "requirement": "30",
+        "target": "SPECIES_TOXTRICITY"
+    },
+    {
+        "species": "SPECIES_TOXEL",
+        "trigger": "EVO_LEVEL_NATURE_LOW_KEY",
+        "requirement": "30",
+        "target": "SPECIES_TOXTRICITY_LOW_KEY"
+    },
+    {
+        "species": "SPECIES_SIZZLIPEDE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_CENTISKORCH"
+    },
+    {
+        "species": "SPECIES_CLOBBOPUS",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_TAUNT",
+        "target": "SPECIES_GRAPPLOCT"
+    },
+    {
+        "species": "SPECIES_SINISTEA",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_CRACKED_POT",
+        "target": "SPECIES_POLTEAGEIST"
+    },
+    {
+        "species": "SPECIES_HATENNA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_HATTREM"
+    },
+    {
+        "species": "SPECIES_HATTREM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_HATTERENE"
+    },
+    {
+        "species": "SPECIES_IMPIDIMP",
+        "trigger": "EVO_LEVEL",
+        "requirement": "32",
+        "target": "SPECIES_MORGREM"
+    },
+    {
+        "species": "SPECIES_MORGREM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_GRIMMSNARL"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_RUBY_CREAM"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_MATCHA_CREAM"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_MINT_CREAM"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_LEMON_CREAM"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_SALTED_CREAM"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_RUBY_SWIRL"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_CARAMEL_SWIRL"
+    },
+    {
+        "species": "SPECIES_MILCERY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "0",
+        "target": "SPECIES_ALCREMIE_RAINBOW_SWIRL"
+    },
+    {
+        "species": "SPECIES_SNOM",
+        "trigger": "EVO_FRIENDSHIP_NIGHT",
+        "requirement": "0",
+        "target": "SPECIES_FROSMOTH"
+    },
+    {
+        "species": "SPECIES_CUFANT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_COPPERAJAH"
+    },
+    {
+        "species": "SPECIES_DREEPY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "50",
+        "target": "SPECIES_DRAKLOAK"
+    },
+    {
+        "species": "SPECIES_DRAKLOAK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "60",
+        "target": "SPECIES_DRAGAPULT"
+    },
+    {
+        "species": "SPECIES_KUBFU",
+        "trigger": "EVO_DARK_SCROLL",
+        "requirement": "0",
+        "target": "SPECIES_URSHIFU"
+    },
+    {
+        "species": "SPECIES_KUBFU",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SCROLL_OF_DARKNESS",
+        "target": "SPECIES_URSHIFU"
+    },
+    {
+        "species": "SPECIES_KUBFU",
+        "trigger": "EVO_WATER_SCROLL",
+        "requirement": "0",
+        "target": "SPECIES_URSHIFU_RAPID_STRIKE_STYLE"
+    },
+    {
+        "species": "SPECIES_KUBFU",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SCROLL_OF_WATERS",
+        "target": "SPECIES_URSHIFU_RAPID_STRIKE_STYLE"
+    },
+    {
+        "species": "SPECIES_SPRIGATITO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_FLORAGATO"
+    },
+    {
+        "species": "SPECIES_FLORAGATO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_MEOWSCARADA"
+    },
+    {
+        "species": "SPECIES_FUECOCO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_CROCALOR"
+    },
+    {
+        "species": "SPECIES_CROCALOR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_SKELEDIRGE"
+    },
+    {
+        "species": "SPECIES_QUAXLY",
+        "trigger": "EVO_LEVEL",
+        "requirement": "16",
+        "target": "SPECIES_QUAXWELL"
+    },
+    {
+        "species": "SPECIES_QUAXWELL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "36",
+        "target": "SPECIES_QUAQUAVAL"
+    },
+    {
+        "species": "SPECIES_LECHONK",
+        "trigger": "EVO_LEVEL_MALE",
+        "requirement": "18",
+        "target": "SPECIES_OINKOLOGNE"
+    },
+    {
+        "species": "SPECIES_LECHONK",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "18",
+        "target": "SPECIES_OINKOLOGNE_FEMALE"
+    },
+    {
+        "species": "SPECIES_TAROUNTULA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "15",
+        "target": "SPECIES_SPIDOPS"
+    },
+    {
+        "species": "SPECIES_NYMBLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_LOKIX"
+    },
+    {
+        "species": "SPECIES_PAWMI",
+        "trigger": "EVO_LEVEL",
+        "requirement": "18",
+        "target": "SPECIES_PAWMO"
+    },
+    {
+        "species": "SPECIES_PAWMO",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_PAWMOT"
+    },
+    {
+        "species": "SPECIES_TANDEMAUS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_MAUSHOLD"
+    },
+    {
+        "species": "SPECIES_TANDEMAUS",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_MAUSHOLD_FAMILY_OF_THREE"
+    },
+    {
+        "species": "SPECIES_FIDOUGH",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_DACHSBUN"
+    },
+    {
+        "species": "SPECIES_SMOLIV",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_DOLLIV"
+    },
+    {
+        "species": "SPECIES_DOLLIV",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_ARBOLIVA"
+    },
+    {
+        "species": "SPECIES_NACLI",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_NACLSTACK"
+    },
+    {
+        "species": "SPECIES_NACLSTACK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_GARGANACL"
+    },
+    {
+        "species": "SPECIES_CHARCADET",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_AUSPICIOUS_ARMOR",
+        "target": "SPECIES_ARMAROUGE"
+    },
+    {
+        "species": "SPECIES_CHARCADET",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MALICIOUS_ARMOR",
+        "target": "SPECIES_CERULEDGE"
+    },
+    {
+        "species": "SPECIES_TADBULB",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_THUNDER_STONE",
+        "target": "SPECIES_BELLIBOLT"
+    },
+    {
+        "species": "SPECIES_WATTREL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_KILOWATTREL"
+    },
+    {
+        "species": "SPECIES_MASCHIFF",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_MABOSSTIFF"
+    },
+    {
+        "species": "SPECIES_SHROODLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_GRAFAIAI"
+    },
+    {
+        "species": "SPECIES_BRAMBLIN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_BRAMBLEGHAST"
+    },
+    {
+        "species": "SPECIES_TOEDSCOOL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_TOEDSCRUEL"
+    },
+    {
+        "species": "SPECIES_CAPSAKID",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_FIRE_STONE",
+        "target": "SPECIES_SCOVILLAIN"
+    },
+    {
+        "species": "SPECIES_RELLOR",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_RABSCA"
+    },
+    {
+        "species": "SPECIES_FLITTLE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_ESPATHRA"
+    },
+    {
+        "species": "SPECIES_TINKATINK",
+        "trigger": "EVO_LEVEL",
+        "requirement": "24",
+        "target": "SPECIES_TINKATUFF"
+    },
+    {
+        "species": "SPECIES_TINKATUFF",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_TINKATON"
+    },
+    {
+        "species": "SPECIES_WIGLETT",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_WUGTRIO"
+    },
+    {
+        "species": "SPECIES_FINIZEN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_PALAFIN"
+    },
+    {
+        "species": "SPECIES_VAROOM",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_REVAVROOM"
+    },
+    {
+        "species": "SPECIES_GLIMMET",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_GLIMMORA"
+    },
+    {
+        "species": "SPECIES_GREAVARD",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "30",
+        "target": "SPECIES_HOUNDSTONE"
+    },
+    {
+        "species": "SPECIES_CETODDLE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_CETITAN"
+    },
+    {
+        "species": "SPECIES_CETODDLE",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_CETITAN"
+    },
+    {
+        "species": "SPECIES_FRIGIBAX",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_ARCTIBAX"
+    },
+    {
+        "species": "SPECIES_ARCTIBAX",
+        "trigger": "EVO_LEVEL",
+        "requirement": "54",
+        "target": "SPECIES_BAXCALIBUR"
+    },
+    {
+        "species": "SPECIES_GIMMIGHOUL",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_GHOLDENGO"
+    },
+    {
+        "species": "SPECIES_GIMMIGHOUL_ROAMING",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_GHOLDENGO"
+    },
+    {
+        "species": "SPECIES_POLTCHAGEIST_COUNTERFEIT",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_UNREMARKABLE_TEACUP",
+        "target": "SPECIES_SINISTCHA_UNREMARKABLE"
+    },
+    {
+        "species": "SPECIES_POLTCHAGEIST_ARTISAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_MASTERPIECE_TEACUP",
+        "target": "SPECIES_SINISTCHA_MASTERPIECE"
+    },
+    {
+        "species": "SPECIES_RATTATA_ALOLAN",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "20",
+        "target": "SPECIES_RATICATE_ALOLAN"
+    },
+    {
+        "species": "SPECIES_SANDSHREW_ALOLAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_SANDSLASH_ALOLAN"
+    },
+    {
+        "species": "SPECIES_SANDSHREW_ALOLAN",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_SANDSLASH_ALOLAN"
+    },
+    {
+        "species": "SPECIES_VULPIX_ALOLAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_NINETALES_ALOLAN"
+    },
+    {
+        "species": "SPECIES_VULPIX_ALOLAN",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_NINETALES_ALOLAN"
+    },
+    {
+        "species": "SPECIES_DIGLETT_ALOLAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "26",
+        "target": "SPECIES_DUGTRIO_ALOLAN"
+    },
+    {
+        "species": "SPECIES_MEOWTH_ALOLAN",
+        "trigger": "EVO_FRIENDSHIP",
+        "requirement": "28",
+        "target": "SPECIES_PERSIAN_ALOLAN"
+    },
+    {
+        "species": "SPECIES_GEODUDE_ALOLAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "25",
+        "target": "SPECIES_GRAVELER_ALOLAN"
+    },
+    {
+        "species": "SPECIES_GRAVELER_ALOLAN",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GOLEM_ALOLAN"
+    },
+    {
+        "species": "SPECIES_GRAVELER_ALOLAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GOLEM_ALOLAN"
+    },
+    {
+        "species": "SPECIES_GRIMER_ALOLAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_MUK_ALOLAN"
+    },
+    {
+        "species": "SPECIES_MEOWTH_GALARIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "28",
+        "target": "SPECIES_PERRSERKER"
+    },
+    {
+        "species": "SPECIES_PONYTA_GALARIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "40",
+        "target": "SPECIES_RAPIDASH_GALARIAN"
+    },
+    {
+        "species": "SPECIES_SLOWPOKE_GALARIAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_GALARICA_CUFF",
+        "target": "SPECIES_SLOWBRO_GALARIAN"
+    },
+    {
+        "species": "SPECIES_SLOWPOKE_GALARIAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_GALARICA_WREATH",
+        "target": "SPECIES_SLOWKING_GALARIAN"
+    },
+    {
+        "species": "SPECIES_FARFETCHD_GALARIAN",
+        "trigger": "EVO_CRITICAL_HITS",
+        "requirement": "3",
+        "target": "SPECIES_SIRFETCHD"
+    },
+    {
+        "species": "SPECIES_MR_MIME_GALARIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "42",
+        "target": "SPECIES_MR_RIME"
+    },
+    {
+        "species": "SPECIES_CORSOLA_GALARIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "38",
+        "target": "SPECIES_CURSOLA"
+    },
+    {
+        "species": "SPECIES_ZIGZAGOON_GALARIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_LINOONE_GALARIAN"
+    },
+    {
+        "species": "SPECIES_LINOONE_GALARIAN",
+        "trigger": "EVO_LEVEL_NIGHT",
+        "requirement": "35",
+        "target": "SPECIES_OBSTAGOON"
+    },
+    {
+        "species": "SPECIES_DARUMAKA_GALARIAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_DARMANITAN_GALARIAN"
+    },
+    {
+        "species": "SPECIES_DARUMAKA_GALARIAN",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SPRING",
+        "target": "SPECIES_DARMANITAN_GALARIAN"
+    },
+    {
+        "species": "SPECIES_YAMASK_GALARIAN",
+        "trigger": "EVO_SCRIPT_TRIGGER_DMG",
+        "requirement": "49",
+        "target": "SPECIES_RUNERIGUS"
+    },
+    {
+        "species": "SPECIES_ZIGZAGOON_GALARIAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_LINOONE_GALARIAN"
+    },
+    {
+        "species": "SPECIES_DARUMAKA_GALARIAN",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_ICE_STONE",
+        "target": "SPECIES_DARMANITAN_GALARIAN"
+    },
+    {
+        "species": "SPECIES_DARUMAKA_GALARIAN",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_DARMANITAN_GALARIAN"
+    },
+    {
+        "species": "SPECIES_BURMY_SANDY_CLOAK",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "20",
+        "target": "SPECIES_WORMADAM_SANDY_CLOAK"
+    },
+    {
+        "species": "SPECIES_BURMY_SANDY_CLOAK",
+        "trigger": "EVO_LEVEL_MALE",
+        "requirement": "20",
+        "target": "SPECIES_MOTHIM"
+    },
+    {
+        "species": "SPECIES_BURMY_TRASH_CLOAK",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "20",
+        "target": "SPECIES_WORMADAM_TRASH_CLOAK"
+    },
+    {
+        "species": "SPECIES_BURMY_TRASH_CLOAK",
+        "trigger": "EVO_LEVEL_MALE",
+        "requirement": "20",
+        "target": "SPECIES_MOTHIM"
+    },
+    {
+        "species": "SPECIES_SHELLOS_EAST_SEA",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_GASTRODON_EAST_SEA"
+    },
+    {
+        "species": "SPECIES_DEERLING_SUMMER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_SAWSBUCK_SUMMER"
+    },
+    {
+        "species": "SPECIES_DEERLING_SUMMER",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_SUMMER",
+        "target": "SPECIES_SAWSBUCK_SUMMER"
+    },
+    {
+        "species": "SPECIES_DEERLING_AUTUMN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_SAWSBUCK_AUTUMN"
+    },
+    {
+        "species": "SPECIES_DEERLING_AUTUMN",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_FALL",
+        "target": "SPECIES_SAWSBUCK_AUTUMN"
+    },
+    {
+        "species": "SPECIES_DEERLING_WINTER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "34",
+        "target": "SPECIES_SAWSBUCK_WINTER"
+    },
+    {
+        "species": "SPECIES_DEERLING_WINTER",
+        "trigger": "EVO_SEASONAL",
+        "requirement": "SEASON_WINTER",
+        "target": "SPECIES_SAWSBUCK_WINTER"
+    },
+    {
+        "species": "SPECIES_FLABEBE_YELLOW_FLOWER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "19",
+        "target": "SPECIES_FLOETTE_YELLOW_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLABEBE_ORANGE_FLOWER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "19",
+        "target": "SPECIES_FLOETTE_ORANGE_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLABEBE_BLUE_FLOWER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "19",
+        "target": "SPECIES_FLOETTE_BLUE_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLABEBE_WHITE_FLOWER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "19",
+        "target": "SPECIES_FLOETTE_WHITE_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLOETTE_YELLOW_FLOWER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_FLORGES_YELLOW_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLOETTE_ORANGE_FLOWER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_FLORGES_ORANGE_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLOETTE_BLUE_FLOWER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_FLORGES_BLUE_FLOWER"
+    },
+    {
+        "species": "SPECIES_FLOETTE_WHITE_FLOWER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_SHINY_STONE",
+        "target": "SPECIES_FLORGES_WHITE_FLOWER"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO_SMALL",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GOURGEIST_SMALL"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO_SMALL",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GOURGEIST_SMALL"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO_LARGE",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GOURGEIST_LARGE"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO_LARGE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GOURGEIST_LARGE"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO_SUPER",
+        "trigger": "EVO_TRADE",
+        "requirement": "0",
+        "target": "SPECIES_GOURGEIST_SUPER"
+    },
+    {
+        "species": "SPECIES_PUMPKABOO_SUPER",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_LINKING_CORD",
+        "target": "SPECIES_GOURGEIST_SUPER"
+    },
+    {
+        "species": "SPECIES_ROCKRUFF_OWN_TEMPO",
+        "trigger": "EVO_LEVEL_DUSK",
+        "requirement": "25",
+        "target": "SPECIES_LYCANROC_DUSK"
+    },
+    {
+        "species": "SPECIES_SINISTEA_ANTIQUE",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_CHIPPED_POT",
+        "target": "SPECIES_POLTEAGEIST_ANTIQUE"
+    },
+    {
+        "species": "SPECIES_URSARING",
+        "trigger": "EVO_ITEM_NIGHT",
+        "requirement": "ITEM_PEAT_BLOCK",
+        "target": "SPECIES_URSALUNA"
+    },
+    {
+        "species": "SPECIES_STANTLER",
+        "trigger": "EVO_LEVEL",
+        "requirement": "30",
+        "target": "SPECIES_WYRDEER"
+    },
+    {
+        "species": "SPECIES_BASCULIN_WHITE_STRIPED",
+        "trigger": "EVO_LEVEL_MALE",
+        "requirement": "30",
+        "target": "SPECIES_BASCULEGION"
+    },
+    {
+        "species": "SPECIES_BASCULIN_WHITE_STRIPED",
+        "trigger": "EVO_LEVEL_FEMALE",
+        "requirement": "30",
+        "target": "SPECIES_BASCULEGION_FEMALE"
+    },
+    {
+        "species": "SPECIES_QWILFISH_HISUIAN",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_BARB_BARRAGE",
+        "target": "SPECIES_OVERQWIL"
+    },
+    {
+        "species": "SPECIES_SNEASEL_HISUIAN",
+        "trigger": "EVO_ITEM_DAY",
+        "requirement": "ITEM_RAZOR_CLAW",
+        "target": "SPECIES_SNEASLER"
+    },
+    {
+        "species": "SPECIES_SNEASEL_HISUIAN",
+        "trigger": "EVO_ITEM_HOLD_DAY",
+        "requirement": "ITEM_RAZOR_CLAW",
+        "target": "SPECIES_SNEASLER"
+    },
+    {
+        "species": "SPECIES_WOOPER_PALDEAN",
+        "trigger": "EVO_LEVEL",
+        "requirement": "20",
+        "target": "SPECIES_CLODSIRE"
+    },
+    {
+        "species": "SPECIES_GIRAFARIG",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_TWIN_BEAM",
+        "target": "SPECIES_FARIGIRAF"
+    },
+    {
+        "species": "SPECIES_PRIMEAPE",
+        "trigger": "EVO_LEVEL",
+        "requirement": "35",
+        "target": "SPECIES_ANNIHILAPE"
+    },
+    {
+        "species": "SPECIES_DUNSPARCE",
+        "trigger": "EVO_MOVE",
+        "requirement": "MOVE_HYPER_DRILL",
+        "target": "SPECIES_DUDUNSPARCE"
+    },
+    {
+        "species": "SPECIES_DURALUDON",
+        "trigger": "EVO_ITEM",
+        "requirement": "ITEM_METAL_COAT",
+        "target": "SPECIES_ARCHALUDON"
+    }
+]

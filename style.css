@@ -1,0 +1,97 @@
+:root {
+  --red: #c8342e; --ink: #cff0c4; --line: #4a3b32; --cream: #1d1a18; --taupe: #a8927f; --taupe-dark: #8f7a68;
+  --page: #1f1f31; --panel: #1d1a18; --warn: #070707; --warn-line: #e0b84a;
+}
+* { box-sizing: border-box; }
+body { margin: 0;  font-family: "IBM Plex Sans Condensed", sans-serif; color: var(--ink); background: var(--page); }
+.top { padding: 18px 20px 6px; max-width: 1400px; margin: 0 auto; }
+.top h1 { margin: 0 0 2px; font-size: 26px; }
+.top p { margin: 0; color: #dcd6d0; }
+main { max-width: 1400px; margin: 0 auto; padding: 10px 20px 30px; }
+footer { max-width: 1400px; margin: 0 auto; padding: 0 20px 30px; color: #6a6058; font-size: 13px; }
+
+/* ---------- controls ---------- */
+.panel { background: var(--panel); border: 1px solid #ddd3c8; border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; }
+#form { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px 24px; }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend { font-weight: 700; padding: 0; margin-bottom: 6px; }
+label { display: flex; flex-direction: column; gap: 3px; font-size: 13px; color: #c6c2bf; }
+label.check { flex-direction: row; align-items: center; gap: 8px; font-size: 14px; color: var(--ink); }
+.span2 { grid-column: span 2; }
+input[type=number], select { font: inherit; padding: 6px 8px; border: 1px solid #c9bdb0; border-radius: 6px; background: #fff; min-width: 0; width: 100%; }
+.levels { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.levels input { text-align: center; padding: 8px 2px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px 12px; align-items: end; }
+.grid.boss { grid-template-columns: 1fr 2fr; }
+.grid .wide { grid-column: span 1; }
+.hint { font-size: 13px; color: #d5cdc7; margin-top: 6px; }
+.adv { margin-top: 10px; }
+.adv summary { cursor: pointer; font-size: 13px; color: #d5cdc7; }
+.adv .grid { margin-top: 8px; }
+.steppers { grid-column: 1 / -1; display: flex; gap: 8px; }
+button { font: inherit; padding: 6px 12px; border: 1px solid #b9ab9b; background: #f3ece4; border-radius: 6px; cursor: pointer; }
+button:hover { background: #eadfd3; }
+a { color: var(--ink); text-decoration: underline; }
+
+/* ---------- messages ---------- */
+.error { background: #fde8e6; border: 1px solid #e3a19c; border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
+.details { margin-top: 14px; display: grid; gap: 8px; }
+.details .box { border: 1px solid #ddd3c8; background: #1d1a18; border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+.details .box.warn { background: var(--warn); border-color: var(--warn-line); }
+.details .box.info { background: #1d1a18; }
+
+/* ---------- the trainer card ---------- */
+.frame { border: 8px solid var(--red); border-radius: 4px; background: var(--cream); padding: 10px; box-shadow: inset 0 0 0 3px var(--line); }
+.row { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; }
+.trainer, .mon { min-width: 0; }
+.box { border: 3px solid var(--line); background: var(--cream); }
+.sprite { height: 150px; background: var(--taupe); border: 3px solid var(--line); border-bottom: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.sprite img { max-width: 100%; max-height: 100%; image-rendering: pixelated; }
+.sprite .ph { font-size: 34px; font-weight: 800; color: rgba(255,255,255,.55); letter-spacing: 1px; }
+.trainer .plate { border: 3px solid var(--line); background: var(--cream); padding: 6px 8px; text-align: right; }
+.trainer .cls { font-size: 15px; border-bottom: 1px solid var(--line); padding-bottom: 3px; margin-bottom: 3px; }
+.trainer .tname { font-weight: 800; font-size: 17px; }
+
+.mon .head { border: 3px solid var(--line); border-bottom: 0; padding: 8px 4px 6px; text-align: center; background: var(--cream); min-height: 96px; }
+.mon .mname { font-weight: 800; font-size: 16px; overflow-wrap: anywhere; }
+.mon .mlevel { font-weight: 700; font-size: 15px; margin: 2px 0 4px; }
+.mon .mlevel small { font-weight: 500; color: #6a6058; font-size: 11px; display: block; }
+.types { display: flex; gap: 4px; justify-content: center; flex-wrap: wrap; min-height: 20px; }
+.chip { color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 10px; text-shadow: 0 1px 1px rgba(0,0,0,.35); }
+.mon .info { border: 3px solid var(--line); border-bottom: 0; background: var(--cream); text-align: center; padding: 4px 2px; }
+.mon .info div { min-height: 22px; line-height: 22px; overflow-wrap: anywhere; }
+.mon .info .item { font-weight: 500; }
+.mon .moves { border: 3px solid var(--line); background: var(--cream); text-align: center; padding: 4px 2px; margin-top: 0; }
+.mon .moves div { min-height: 26px; line-height: 26px; overflow-wrap: anywhere; }
+.mon .stats { margin-top: 10px; border: 3px solid var(--line); background: var(--taupe); color: #fff; padding: 2px 4px 4px; font-weight: 700; font-size: 12px; }
+.stats .sh { display: grid; grid-template-columns: 1fr 34px; gap: 4px; padding: 4px 0; text-transform: uppercase; letter-spacing: .5px; }
+.stats .sh span:last-child { text-align: center; }
+.stats .sr { display: grid; grid-template-columns: 30px 28px 1fr 34px; gap: 4px; align-items: center; height: 24px; }
+.stats .bar { height: 12px; }
+.stats .bar i { display: block; height: 100%; }
+.stats .ev { text-align: center; background: rgba(0,0,0,.08); height: 100%; line-height: 24px; }
+.stats .speed { display: grid; grid-template-columns: 1fr 44px; margin-top: 4px; border-top: 3px solid var(--line); text-transform: uppercase; }
+.stats .speed span { line-height: 30px; }
+.stats .speed b { background: #cf3b32; text-align: center; line-height: 30px; }
+.alts { margin-top: 6px; font-size: 12px; }
+.alts summary { cursor: pointer; color: #5b524b; }
+.alts .alt { border-top: 1px dashed #c9bdb0; padding: 4px 0; }
+.alts .alt.shown { font-weight: 700; }
+.alts .m { color: #6a6058; }
+.empty .stats { opacity: .85; }
+
+/* ---------- item / move rows: text + icon or type chip ---------- */
+.irow { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding: 0 6px; }
+.irow .nm { flex: 1; text-align: center; min-width: 0; }
+.irow img.ico { width: 32px; height: 32px;  flex: none; }
+.chip.sm { font-size: 10px; padding: 0px 5px; flex: none; margin: 2px; line-height: 2; }
+
+/* ---------- trainer items box (under the trainer plate) ---------- */
+.titems { margin-top: 18px; border: 3px solid var(--line); background: var(--cream); }
+.titems .th { font-weight: 800; padding: 4px 8px; border-bottom: 3px solid var(--line); }
+.titems .tl { padding: 4px 0 8px; }
+.titems .tl .irow { line-height: 30px; }
+.titems .tl .nm { text-align: left; }
+
+@media (max-width: 1150px) { .row { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 760px)  { .row { grid-template-columns: repeat(2, minmax(0, 1fr)); } .levels { grid-template-columns: repeat(3, 1fr); } .grid.boss { grid-template-columns: 1fr; } }

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emerald Crest Trainer Calculator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="top">
+    <h1>Emerald Crest Trainer Party Calculator</h1>
+  </header>
+
+  <main>
+    <section class="panel" aria-label="Inputs">
+      <form id="form" autocomplete="off">
+        <fieldset>
+          <legend>Your party levels</legend>
+          <div class="levels" id="levels"></div>
+          <div class="hint">Party average: <strong id="avg">–</strong></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Game state</legend>
+          <div class="grid">
+            <label class="span2">Badges
+              <select id="badges"></select>
+            </label>
+            <label>Difficulty
+              <select id="difficulty">
+                <option value="0">0</option><option value="1">1</option>
+                <option value="2">2 (hard)</option><option value="3">3 (hard)</option>
+              </select>
+            </label>
+            <label class="check"><input type="checkbox" id="bugfix"> Trainer Level Bugfix</label>
+            <label class="check"><input type="checkbox" id="gym"> Gym Challenge</label>
+            <label class="check"><input type="checkbox" id="post"> Post-champion</label>
+          </div>
+          <details class="adv">
+            <summary>Advanced</summary>
+            <div class="grid">
+              <label>Saved party average <input type="number" id="saved" min="1" max="100" placeholder="use party average"></label>
+              <label>Trainer IV scaling value <input type="number" id="iv" min="0" max="31" placeholder="from party data"></label>
+              <label>Trainer EV scaling value <input type="number" id="ev" min="0" max="252" placeholder="0"></label>
+              <label>When levels can differ, show
+                <select id="pick"><option value="likely">most likely build</option><option value="strongest">strongest build</option></select>
+              </label>
+            </div>
+            <p class="hint">Saved average only matters on difficulty &lt; 2 (or for classes that don't use the live average). IV/EV values only apply if the trainer-scaling challenges are on.</p>
+          </details>
+        </fieldset>
+
+        <fieldset>
+          <legend>Boss</legend>
+          <div class="grid boss">
+            <label>Class <select id="cls"></select></label>
+            <label class="wide">Trainer <select id="trainer"></select></label>
+            <div class="steppers">
+              <button type="button" id="prev" title="Previous trainer">‹</button>
+              <button type="button" id="next" title="Next trainer">›</button>
+              <button type="button" id="copy" title="Copy a link to this exact setup">Copy link</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="result" aria-live="polite">
+      <div id="error" class="error" hidden></div>
+      <div id="frame" class="frame" hidden></div>
+      <div id="details" class="details" hidden></div>
+    </section>
+  </main>
+
+  <footer>
+    Guide v1.0. Based off of Emerald Crest game version v1.0.F. Natures and abilities not currently implemented.<br/>
+    For information on emerald crest wild encounters, see <a href="https://docs.google.com/spreadsheets/d/1A8ljff9g0sGg98_8kNGiibkpHJQrDFlNZs3R9Jxhyd8/view?gid=0#gid=0" target="_blank">my google sheet here</a>.
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

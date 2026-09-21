@@ -1,0 +1,2606 @@
+{
+    "MOVE_NONE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_POUND": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_KARATE_CHOP": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_DOUBLE_SLAP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_COMET_PUNCH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MEGA_PUNCH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PAY_DAY": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FIRE_PUNCH": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_ICE_PUNCH": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_THUNDER_PUNCH": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SCRATCH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_VISE_GRIP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_GUILLOTINE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RAZOR_WIND": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SWORDS_DANCE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CUT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_GUST": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_WING_ATTACK": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_WHIRLWIND": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FLY": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_BIND": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SLAM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_VINE_WHIP": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_STOMP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DOUBLE_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_MEGA_KICK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_JUMP_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ROLLING_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SAND_ATTACK": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_HEADBUTT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HORN_ATTACK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FURY_ATTACK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HORN_DRILL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TACKLE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BODY_SLAM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_WRAP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TAKE_DOWN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_THRASH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DOUBLE_EDGE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TAIL_WHIP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_POISON_STING": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_TWINEEDLE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_PIN_MISSILE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_LEER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BITE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_GROWL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ROAR": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SING": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SUPERSONIC": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SONIC_BOOM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DISABLE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ACID": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_EMBER": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FLAMETHROWER": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_MIST": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_WATER_GUN": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_HYDRO_PUMP": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SURF": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_ICE_BEAM": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_BLIZZARD": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_PSYBEAM": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_BUBBLE_BEAM": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_AURORA_BEAM": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_HYPER_BEAM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PECK": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_DRILL_PECK": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_SUBMISSION": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_LOW_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_COUNTER": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SEISMIC_TOSS": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_STRENGTH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ABSORB": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_MEGA_DRAIN": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_LEECH_SEED": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_GROWTH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RAZOR_LEAF": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SOLAR_BEAM": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_POISON_POWDER": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_STUN_SPORE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SLEEP_POWDER": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_PETAL_DANCE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_STRING_SHOT": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_DRAGON_RAGE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_FIRE_SPIN": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_THUNDER_SHOCK": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_THUNDERBOLT": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_THUNDER_WAVE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_THUNDER": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_ROCK_THROW": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_EARTHQUAKE": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_FISSURE": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_DIG": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_TOXIC": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_CONFUSION": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_PSYCHIC": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_HYPNOSIS": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_MEDITATE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_AGILITY": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_QUICK_ATTACK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RAGE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TELEPORT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_NIGHT_SHADE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_MIMIC": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SCREECH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DOUBLE_TEAM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RECOVER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HARDEN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MINIMIZE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SMOKESCREEN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CONFUSE_RAY": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_WITHDRAW": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_DEFENSE_CURL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BARRIER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_LIGHT_SCREEN": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_HAZE": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_REFLECT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_FOCUS_ENERGY": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BIDE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_METRONOME": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MIRROR_MOVE": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_SELF_DESTRUCT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_EGG_BOMB": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_LICK": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_SMOG": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_SLUDGE": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_BONE_CLUB": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_FIRE_BLAST": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_WATERFALL": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_CLAMP": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SWIFT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SKULL_BASH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SPIKE_CANNON": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CONSTRICT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_AMNESIA": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_KINESIS": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SOFT_BOILED": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HIGH_JUMP_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_GLARE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DREAM_EATER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_POISON_GAS": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_BARRAGE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_LEECH_LIFE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_LOVELY_KISS": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SKY_ATTACK": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_TRANSFORM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BUBBLE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_DIZZY_PUNCH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SPORE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_FLASH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PSYWAVE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SPLASH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ACID_ARMOR": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_CRABHAMMER": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_EXPLOSION": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FURY_SWIPES": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BONEMERANG": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_REST": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ROCK_SLIDE": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_HYPER_FANG": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SHARPEN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CONVERSION": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TRI_ATTACK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SUPER_FANG": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SLASH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SUBSTITUTE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_STRUGGLE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SKETCH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TRIPLE_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_THIEF": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SPIDER_WEB": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_MIND_READER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_NIGHTMARE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_FLAME_WHEEL": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_SNORE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CURSE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_FLAIL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CONVERSION_2": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_AEROBLAST": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_COTTON_SPORE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_REVERSAL": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SPITE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_POWDER_SNOW": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_PROTECT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MACH_PUNCH": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SCARY_FACE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FEINT_ATTACK": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SWEET_KISS": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_BELLY_DRUM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SLUDGE_BOMB": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_MUD_SLAP": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_OCTAZOOKA": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SPIKES": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_ZAP_CANNON": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_FORESIGHT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DESTINY_BOND": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_PERISH_SONG": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ICY_WIND": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_DETECT": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_BONE_RUSH": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_LOCK_ON": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_OUTRAGE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_SANDSTORM": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_GIGA_DRAIN": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_ENDURE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CHARM": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_ROLLOUT": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_FALSE_SWIPE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SWAGGER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MILK_DRINK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SPARK": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_FURY_CUTTER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_STEEL_WING": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_MEAN_LOOK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ATTRACT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SLEEP_TALK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HEAL_BELL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RETURN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PRESENT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FRUSTRATION": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SAFEGUARD": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PAIN_SPLIT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SACRED_FIRE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_MAGNITUDE": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_DYNAMIC_PUNCH": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_MEGAHORN": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_DRAGON_BREATH": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_BATON_PASS": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ENCORE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PURSUIT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_RAPID_SPIN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SWEET_SCENT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_IRON_TAIL": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_METAL_CLAW": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_VITAL_THROW": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_MORNING_SUN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SYNTHESIS": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_MOONLIGHT": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_HIDDEN_POWER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CROSS_CHOP": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_TWISTER": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_RAIN_DANCE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SUNNY_DAY": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_CRUNCH": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_MIRROR_COAT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_PSYCH_UP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_EXTREME_SPEED": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ANCIENT_POWER": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_SHADOW_BALL": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_FUTURE_SIGHT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ROCK_SMASH": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_WHIRLPOOL": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_BEAT_UP": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_FAKE_OUT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_UPROAR": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_STOCKPILE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SPIT_UP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SWALLOW": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HEAT_WAVE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_HAIL": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_TORMENT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_FLATTER": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_WILL_O_WISP": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_MEMENTO": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_FACADE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FOCUS_PUNCH": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SMELLING_SALTS": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FOLLOW_ME": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_NATURE_POWER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CHARGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_TAUNT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_HELPING_HAND": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TRICK": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ROLE_PLAY": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_WISH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ASSIST": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_INGRAIN": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SUPERPOWER": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_MAGIC_COAT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_RECYCLE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_REVENGE": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_BRICK_BREAK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_YAWN": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_KNOCK_OFF": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_ENDEAVOR": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ERUPTION": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_SKILL_SWAP": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_IMPRISON": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_REFRESH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_GRUDGE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_SNATCH": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SECRET_POWER": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DIVE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_ARM_THRUST": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_CAMOUFLAGE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TAIL_GLOW": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_LUSTER_PURGE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_MIST_BALL": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_FEATHER_DANCE": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_TEETER_DANCE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BLAZE_KICK": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_MUD_SPORT": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_ICE_BALL": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_NEEDLE_ARM": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SLACK_OFF": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HYPER_VOICE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_POISON_FANG": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_CRUSH_CLAW": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BLAST_BURN": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_HYDRO_CANNON": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_METEOR_MASH": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_ASTONISH": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_WEATHER_BALL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_AROMATHERAPY": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_FAKE_TEARS": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_AIR_CUTTER": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_OVERHEAT": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_ODOR_SLEUTH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ROCK_TOMB": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_SILVER_WIND": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_METAL_SOUND": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_GRASS_WHISTLE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_TICKLE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_COSMIC_POWER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_WATER_SPOUT": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SIGNAL_BEAM": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_SHADOW_PUNCH": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_EXTRASENSORY": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SKY_UPPERCUT": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SAND_TOMB": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_SHEER_COLD": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_MUDDY_WATER": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_BULLET_SEED": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_AERIAL_ACE": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_ICICLE_SPEAR": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_IRON_DEFENSE": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_BLOCK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HOWL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DRAGON_CLAW": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_FRENZY_PLANT": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_BULK_UP": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_BOUNCE": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_MUD_SHOT": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_POISON_TAIL": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_COVET": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_VOLT_TACKLE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_MAGICAL_LEAF": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_WATER_SPORT": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_CALM_MIND": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_LEAF_BLADE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_DRAGON_DANCE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_ROCK_BLAST": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_SHOCK_WAVE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_WATER_PULSE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_DOOM_DESIRE": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_PSYCHO_BOOST": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ROOST": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_GRAVITY": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_MIRACLE_EYE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_WAKE_UP_SLAP": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_HAMMER_ARM": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_GYRO_BALL": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_HEALING_WISH": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_BRINE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_NATURAL_GIFT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FEINT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PLUCK": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_TAILWIND": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_ACUPRESSURE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_METAL_BURST": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_U_TURN": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_CLOSE_COMBAT": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_PAYBACK": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_ASSURANCE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_EMBARGO": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_FLING": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_PSYCHO_SHIFT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_TRUMP_CARD": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HEAL_BLOCK": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_WRING_OUT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_POWER_TRICK": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_GASTRO_ACID": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_LUCKY_CHANT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ME_FIRST": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_COPYCAT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_POWER_SWAP": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_GUARD_SWAP": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_PUNISHMENT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_LAST_RESORT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_WORRY_SEED": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SUCKER_PUNCH": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_TOXIC_SPIKES": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_HEART_SWAP": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_AQUA_RING": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_MAGNET_RISE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_FLARE_BLITZ": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FORCE_PALM": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_AURA_SPHERE": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ROCK_POLISH": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_POISON_JAB": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_DARK_PULSE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_NIGHT_SLASH": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_AQUA_TAIL": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SEED_BOMB": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_AIR_SLASH": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_X_SCISSOR": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_BUG_BUZZ": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_DRAGON_PULSE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_DRAGON_RUSH": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_POWER_GEM": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_DRAIN_PUNCH": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_VACUUM_WAVE": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_FOCUS_BLAST": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ENERGY_BALL": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_BRAVE_BIRD": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_EARTH_POWER": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_SWITCHEROO": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_GIGA_IMPACT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_NASTY_PLOT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_BULLET_PUNCH": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_AVALANCHE": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_ICE_SHARD": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_SHADOW_CLAW": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_THUNDER_FANG": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_ICE_FANG": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_FIRE_FANG": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_SHADOW_SNEAK": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_MUD_BOMB": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_PSYCHO_CUT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ZEN_HEADBUTT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_MIRROR_SHOT": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_FLASH_CANNON": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_ROCK_CLIMB": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DEFOG": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_TRICK_ROOM": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_DRACO_METEOR": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_DISCHARGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_LAVA_PLUME": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_LEAF_STORM": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_POWER_WHIP": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_ROCK_WRECKER": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_CROSS_POISON": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_GUNK_SHOT": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_IRON_HEAD": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_MAGNET_BOMB": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_STONE_EDGE": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_CAPTIVATE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_STEALTH_ROCK": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_GRASS_KNOT": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_CHATTER": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_JUDGMENT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BUG_BITE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_CHARGE_BEAM": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_WOOD_HAMMER": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_AQUA_JET": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_ATTACK_ORDER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_DEFEND_ORDER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_HEAL_ORDER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_HEAD_SMASH": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_DOUBLE_HIT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ROAR_OF_TIME": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_SPACIAL_REND": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_LUNAR_DANCE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_CRUSH_GRIP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MAGMA_STORM": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_DARK_VOID": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SEED_FLARE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_OMINOUS_WIND": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_SHADOW_FORCE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_HONE_CLAWS": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_WIDE_GUARD": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_GUARD_SPLIT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_POWER_SPLIT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_WONDER_ROOM": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_PSYSHOCK": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_VENOSHOCK": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_AUTOTOMIZE": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_RAGE_POWDER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_TELEKINESIS": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_MAGIC_ROOM": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SMACK_DOWN": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_STORM_THROW": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_FLAME_BURST": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_SLUDGE_WAVE": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_QUIVER_DANCE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_HEAVY_SLAM": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_SYNCHRONOISE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ELECTRO_BALL": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SOAK": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_FLAME_CHARGE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_COIL": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_LOW_SWEEP": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ACID_SPRAY": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_FOUL_PLAY": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SIMPLE_BEAM": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ENTRAINMENT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_AFTER_YOU": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ROUND": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ECHOED_VOICE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CHIP_AWAY": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CLEAR_SMOG": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_STORED_POWER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_QUICK_GUARD": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ALLY_SWITCH": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SCALD": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SHELL_SMASH": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HEAL_PULSE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_HEX": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_SKY_DROP": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_SHIFT_GEAR": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_CIRCLE_THROW": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_INCINERATE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_QUASH": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_ACROBATICS": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_REFLECT_TYPE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RETALIATE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FINAL_GAMBIT": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_BESTOW": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_INFERNO": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_WATER_PLEDGE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_FIRE_PLEDGE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_GRASS_PLEDGE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_VOLT_SWITCH": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_STRUGGLE_BUG": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_BULLDOZE": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_FROST_BREATH": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_DRAGON_TAIL": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_WORK_UP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ELECTROWEB": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_WILD_CHARGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_DRILL_RUN": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_DUAL_CHOP": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_HEART_STAMP": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_HORN_LEECH": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SACRED_SWORD": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_RAZOR_SHELL": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_HEAT_CRASH": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_LEAF_TORNADO": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_STEAMROLLER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_COTTON_GUARD": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_NIGHT_DAZE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_PSYSTRIKE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_TAIL_SLAP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HURRICANE": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_HEAD_CHARGE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_GEAR_GRIND": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_SEARING_SHOT": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_TECHNO_BLAST": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_RELIC_SONG": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SECRET_SWORD": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_GLACIATE": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_BOLT_STRIKE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_BLUE_FLARE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FIERY_DANCE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FREEZE_SHOCK": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_ICE_BURN": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_SNARL": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_ICICLE_CRASH": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_V_CREATE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FUSION_FLARE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FUSION_BOLT": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_FLYING_PRESS": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_MAT_BLOCK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_BELCH": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_ROTOTILLER": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_STICKY_WEB": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_FELL_STINGER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_PHANTOM_FORCE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_TRICK_OR_TREAT": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_NOBLE_ROAR": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ION_DELUGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_PARABOLIC_CHARGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_FORESTS_CURSE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_PETAL_BLIZZARD": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_FREEZE_DRY": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_DISARMING_VOICE": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_PARTING_SHOT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_TOPSY_TURVY": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_DRAINING_KISS": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_CRAFTY_SHIELD": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_FLOWER_SHIELD": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_GRASSY_TERRAIN": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_MISTY_TERRAIN": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_ELECTRIFY": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_PLAY_ROUGH": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_FAIRY_WIND": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_MOONBLAST": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_BOOMBURST": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FAIRY_LOCK": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_KINGS_SHIELD": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_PLAY_NICE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CONFIDE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DIAMOND_STORM": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_STEAM_ERUPTION": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_HYPERSPACE_HOLE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_WATER_SHURIKEN": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_MYSTICAL_FIRE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_SPIKY_SHIELD": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_AROMATIC_MIST": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_EERIE_IMPULSE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_VENOM_DRENCH": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_POWDER": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_GEOMANCY": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_MAGNETIC_FLUX": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_HAPPY_HOUR": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ELECTRIC_TERRAIN": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_DAZZLING_GLEAM": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_CELEBRATE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_HOLD_HANDS": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_BABY_DOLL_EYES": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_NUZZLE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_HOLD_BACK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_INFESTATION": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_POWER_UP_PUNCH": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_OBLIVION_WING": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_THOUSAND_ARROWS": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_THOUSAND_WAVES": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_LANDS_WRATH": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_LIGHT_OF_RUIN": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_ORIGIN_PULSE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_PRECIPICE_BLADES": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_DRAGON_ASCENT": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_HYPERSPACE_FURY": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SHORE_UP": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_FIRST_IMPRESSION": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_BANEFUL_BUNKER": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_SPIRIT_SHACKLE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_DARKEST_LARIAT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SPARKLING_ARIA": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_ICE_HAMMER": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_FLORAL_HEALING": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_HIGH_HORSEPOWER": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_STRENGTH_SAP": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SOLAR_BLADE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_LEAFAGE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SPOTLIGHT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TOXIC_THREAD": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_LASER_FOCUS": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_GEAR_UP": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_THROAT_CHOP": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_POLLEN_PUFF": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_ANCHOR_SHOT": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_PSYCHIC_TERRAIN": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_LUNGE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_FIRE_LASH": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_POWER_TRIP": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_BURN_UP": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_SPEED_SWAP": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SMART_STRIKE": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_PURIFY": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_REVELATION_DANCE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CORE_ENFORCER": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_TROP_KICK": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_INSTRUCT": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_BEAK_BLAST": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_CLANGING_SCALES": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_DRAGON_HAMMER": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_BRUTAL_SWING": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_AURORA_VEIL": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_SHELL_TRAP": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_FLEUR_CANNON": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_PSYCHIC_FANGS": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_STOMPING_TANTRUM": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_SHADOW_BONE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_ACCELEROCK": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_LIQUIDATION": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_PRISMATIC_LASER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SPECTRAL_THIEF": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_SUNSTEEL_STRIKE": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_MOONGEIST_BEAM": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_TEARFUL_LOOK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ZING_ZAP": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_NATURES_MADNESS": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_MULTI_ATTACK": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MIND_BLOWN": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_PLASMA_FISTS": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_PHOTON_GEYSER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ZIPPY_ZAP": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SPLISHY_SPLASH": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_FLOATY_FALL": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_PIKA_PAPOW": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_BOUNCY_BUBBLE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_BUZZY_BUZZ": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SIZZLY_SLIDE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_GLITZY_GLOW": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_BADDY_BAD": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SAPPY_SEED": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_FREEZY_FROST": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_SPARKLY_SWIRL": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_VEEVEE_VOLLEY": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_DOUBLE_IRON_BASH": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_DYNAMAX_CANNON": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_SNIPE_SHOT": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_JAW_LOCK": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_STUFF_CHEEKS": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_NO_RETREAT": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_TAR_SHOT": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_MAGIC_POWDER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_DRAGON_DARTS": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_TEATIME": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_OCTOLOCK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_BOLT_BEAK": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_FISHIOUS_REND": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_COURT_CHANGE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CLANGOROUS_SOUL": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_BODY_PRESS": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_DECORATE": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_DRUM_BEATING": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SNAP_TRAP": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_PYRO_BALL": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_BEHEMOTH_BLADE": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_BEHEMOTH_BASH": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_AURA_WHEEL": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_BREAKING_SWIPE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_BRANCH_POKE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_OVERDRIVE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_APPLE_ACID": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_GRAV_APPLE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SPIRIT_BREAK": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_STRANGE_STEAM": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_LIFE_DEW": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_OBSTRUCT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_FALSE_SURRENDER": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_METEOR_ASSAULT": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ETERNABEAM": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_STEEL_BEAM": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_EXPANDING_FORCE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_STEEL_ROLLER": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_SCALE_SHOT": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_METEOR_BEAM": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_SHELL_SIDE_ARM": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_MISTY_EXPLOSION": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_GRASSY_GLIDE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_RISING_VOLTAGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_TERRAIN_PULSE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SKITTER_SMACK": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_BURNING_JEALOUSY": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_LASH_OUT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_POLTERGEIST": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_CORROSIVE_GAS": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_COACHING": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_FLIP_TURN": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_TRIPLE_AXEL": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_DUAL_WINGBEAT": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_SCORCHING_SANDS": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_JUNGLE_HEALING": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_WICKED_BLOW": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_SURGING_STRIKES": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_THUNDER_CAGE": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_DRAGON_ENERGY": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_FREEZING_GLARE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_FIERY_WRATH": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_THUNDEROUS_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_GLACIAL_LANCE": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_ASTRAL_BARRAGE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_EERIE_SPELL": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_DIRE_CLAW": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_PSYSHIELD_BASH": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_POWER_SHIFT": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_STONE_AXE": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_SPRINGTIDE_STORM": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_MYSTICAL_POWER": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_RAGING_FURY": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_WAVE_CRASH": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_CHLOROBLAST": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_MOUNTAIN_GALE": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_VICTORY_DANCE": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_HEADLONG_RUSH": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_BARB_BARRAGE": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_ESPER_WING": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_BITTER_MALICE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_SHELTER": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_TRIPLE_ARROWS": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_INFERNAL_PARADE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_CEASELESS_EDGE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_BLEAKWIND_STORM": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_WILDBOLT_STORM": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SANDSEAR_STORM": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_LUNAR_BLESSING": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_TAKE_HEART": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_TERA_BLAST": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SILK_TRAP": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_AXE_KICK": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_LAST_RESPECTS": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_LUMINA_CRASH": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_ORDER_UP": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_JET_PUNCH": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SPICY_EXTRACT": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SPIN_OUT": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_POPULATION_BOMB": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ICE_SPINNER": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_GLAIVE_RUSH": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_REVIVAL_BLESSING": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SALT_CURE": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_TRIPLE_DIVE": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_MORTAL_SPIN": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_DOODLE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_FILLET_AWAY": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_KOWTOW_CLEAVE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_FLOWER_TRICK": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_TORCH_SONG": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_AQUA_STEP": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_RAGING_BULL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MAKE_IT_RAIN": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_RUINATION": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_COLLISION_COURSE": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_ELECTRO_DRIFT": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SHED_TAIL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_CHILLY_RECEPTION": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_TIDY_UP": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_SNOWSCAPE": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_POUNCE": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_TRAILBLAZE": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_CHILLING_WATER": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_HYPER_DRILL": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_TWIN_BEAM": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_RAGE_FIST": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_ARMOR_CANNON": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_BITTER_BLADE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_DOUBLE_SHOCK": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_GIGATON_HAMMER": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_COMEUPPANCE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_AQUA_CUTTER": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_BLAZING_TORQUE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_WICKED_TORQUE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_NOXIOUS_TORQUE": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_COMBAT_TORQUE": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_MAGICAL_TORQUE": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_PSYBLADE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_HYDRO_STEAM": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_BLOOD_MOON": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_MATCHA_GOTCHA": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_SYRUP_BOMB": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_IVY_CUDGEL": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_BREAKNECK_BLITZ": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_ALL_OUT_PUMMELING": {
+        "type": "TYPE_FIGHTING"
+    },
+    "MOVE_SUPERSONIC_SKYSTRIKE": {
+        "type": "TYPE_FLYING"
+    },
+    "MOVE_ACID_DOWNPOUR": {
+        "type": "TYPE_POISON"
+    },
+    "MOVE_TECTONIC_RAGE": {
+        "type": "TYPE_GROUND"
+    },
+    "MOVE_CONTINENTAL_CRUSH": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_SAVAGE_SPIN_OUT": {
+        "type": "TYPE_BUG"
+    },
+    "MOVE_NEVER_ENDING_NIGHTMARE": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_CORKSCREW_CRASH": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_INFERNO_OVERDRIVE": {
+        "type": "TYPE_FIRE"
+    },
+    "MOVE_HYDRO_VORTEX": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_BLOOM_DOOM": {
+        "type": "TYPE_GRASS"
+    },
+    "MOVE_GIGAVOLT_HAVOC": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_SHATTERED_PSYCHE": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SUBZERO_SLAMMER": {
+        "type": "TYPE_ICE"
+    },
+    "MOVE_DEVASTATING_DRAKE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_BLACK_HOLE_ECLIPSE": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_TWINKLE_TACKLE": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_CATASTROPIKA": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_10000000_VOLT_THUNDERBOLT": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_STOKED_SPARKSURFER": {
+        "type": "TYPE_ELECTRIC"
+    },
+    "MOVE_EXTREME_EVOBOOST": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_PULVERIZING_PANCAKE": {
+        "type": "TYPE_NORMAL"
+    },
+    "MOVE_GENESIS_SUPERNOVA": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SINISTER_ARROW_RAID": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_MALICIOUS_MOONSAULT": {
+        "type": "TYPE_DARK"
+    },
+    "MOVE_OCEANIC_OPERETTA": {
+        "type": "TYPE_WATER"
+    },
+    "MOVE_SPLINTERED_STORMSHARDS": {
+        "type": "TYPE_ROCK"
+    },
+    "MOVE_LETS_SNUGGLE_FOREVER": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_CLANGOROUS_SOULBLAZE": {
+        "type": "TYPE_DRAGON"
+    },
+    "MOVE_GUARDIAN_OF_ALOLA": {
+        "type": "TYPE_FAIRY"
+    },
+    "MOVE_SEARING_SUNRAZE_SMASH": {
+        "type": "TYPE_STEEL"
+    },
+    "MOVE_MENACING_MOONRAZE_MAELSTROM": {
+        "type": "TYPE_GHOST"
+    },
+    "MOVE_LIGHT_THAT_BURNS_THE_SKY": {
+        "type": "TYPE_PSYCHIC"
+    },
+    "MOVE_SOUL_STEALING_7_STAR_STRIKE": {
+        "type": "TYPE_GHOST"
+    }
+}
