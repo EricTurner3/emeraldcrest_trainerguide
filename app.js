@@ -537,11 +537,9 @@ function loadItems() {
 }
 
 // A location like "Route118 - Hidden" or "Route110 - Trick House Puzzle8 - Pokeball" carries its kind as a
-// " - Hidden" / " - Pokeball" suffix (see merge_item_sources.py); anything without that suffix is a store/mart
-// listing (see build_item_locations.py). Split the suffix off so it can drive the pill's color instead of just
-// sitting in the text.
+//  anything without that suffix is a store/mart
 function locationKind(loc) {
-  const m = String(loc).match(/^(.*)\s-\s(Hidden|Pokeball)$/i);
+  const m = String(loc).match(/^(.*)\s-\s(Hidden|Pokeball|Event)$/i);
   return m ? { text: m[1], kind: m[2].toLowerCase(), label: m[2] } : { text: loc, kind: 'store', label: 'Store' };
 }
 function locationPill(loc) {

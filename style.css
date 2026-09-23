@@ -144,3 +144,9 @@ a { color: var(--ink); text-decoration: underline; }
 .pill-hidden   { background: #8a5a2e; }
 .pill-pokeball { background: #3b6fae; }
 .pill-store    { background: #3f7d4a; }
+.pill-event    { background: #7a4fa0; }
+ 
+.color-legend { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #d5cdc7; }
+.legend-desc { color: #a49b92; }
+@media (max-width: 600px) { .color-legend { flex-direction: column; gap: 8px; } }
