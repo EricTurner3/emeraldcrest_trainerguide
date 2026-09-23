@@ -19,15 +19,30 @@ const DEFAULTS = { levels: ['20', '20', '20', '', '', ''], badges: '0', difficul
                    saved: '', iv: '', ev: '', pick: 'likely', cls: 'ALL', trainer: '' };
 
 let backend, trainers = [], seq = 0, timer = null;
+let currentView = 'calc';
+
+// The calculator engine wants a flat dex.json-shaped array: [{name, type1, type2, base:{hp,atk,def,spa,spd,spe}}, ...].
+// pokemon.json stores stats as a per-gen timeline instead (see statAt() below), so this
+// resolves one gen's worth of stats and reshapes each entry into that flat form.
+const CALC_STATS_GEN = 9; // which gen's stat revisions the trainer calculator itself uses
+function buildDexArray(pokedexArr, gen) {
+  return pokedexArr.map((m) => {
+    const s = dexRowStats(m, gen);
+    const t = displayTypes(m.types);
+    return { name: m.name, type1: t[0] || '', type2: t[1] || '', base: { hp: s.hp, atk: s.atk, def: s.def, spa: s.spa, spd: s.spd, spe: s.spe } };
+  });
+}
 
 // ---------------------------------------------------------------- backend (local engine or remote API)
 async function loadBackend() {
-  // Everything runs in the browser: the game logic is engine.mjs, the data is the JSON files in /data.
+  // Everything runs in the browser: the game logic is engine.mjs, the data is the JSON files in /data,
+  // plus pokemon.json (species/types/abilities/items/stats) which now also supplies the calculator's dex.
   const get = (f) => fetch('data/' + f + '.json').then((r) => { if (!r.ok) throw new Error('Could not load data/' + f + '.json'); return r.json(); });
-  const [engine, trainers, parties, evo, learn, dex, overrides, moves] = await Promise.all([
-    import('./engine_obs.mjs'), get('trainers'), get('parties'), get('evolutions'), get('learnsets'), get('dex'), get('speciesmap'),
-    get('moves').catch(() => ({}))                       // optional: moves.json  {"MOVE_POUND": {"type": "TYPE_NORMAL"}, ...}
+  const [engine, trainers, parties, evo, learn, pokedexArr, overrides, moves] = await Promise.all([
+    import('./engine_obs.mjs'), get('trainers'), get('parties'), get('evolutions'), get('learnsets'), loadDex(), get('speciesmap'),
+    get('moves').catch(() => ({}))                       // optional: moves.json  {\"MOVE_POUND\": {\"type\": \"TYPE_NORMAL\"}, ...}
   ]);
+  const dex = buildDexArray(pokedexArr, CALC_STATS_GEN);
   const data = { trainers, parties, evo, learn, dex, overrides };
   // move display name ("Will-O-Wisp") and MOVE_WILL_O_WISP both normalise to "willowisp"
   moveTypes = {};
@@ -61,7 +76,7 @@ function itemSpriteUrl(name) {
   if (!slug) return null;
   const base = CONFIG.ITEM_SPRITE_BASE !== undefined ? CONFIG.ITEM_SPRITE_BASE : 'sprites/item/';
   var sprite_url= base + (slug.endsWith('-berry') ? 'berry/' : '') + (slug.endsWith('-berry') ? slug.replace(/-berry$/, '') : slug) + (CONFIG.ITEM_SPRITE_EXT || '.png');
-  console.log('itemSpriteUrl', name, slug, sprite_url);
+  //console.log('itemSpriteUrl', name, slug, sprite_url);
   return sprite_url;
 }
 function itemIcon(name) {
@@ -71,10 +86,13 @@ function itemIcon(name) {
   img.addEventListener('error', () => img.remove());     // missing sprite -> just the text
   return img;
 }
-function itemRow(name) {
+function itemRow(name, rarity, skipIcon=false) {
   const row = el('div', 'irow');
+  if(rarity) row.appendChild(el('span', 'nm', rarity));
   row.appendChild(el('span', 'nm', name || '-'));
-  const ico = itemIcon(name); if (ico) row.appendChild(ico);
+  if (!skipIcon) {
+    const ico = itemIcon(name); if (ico) row.appendChild(ico);
+  }
   return row;
 }
 function moveRow(name) {
@@ -127,7 +145,30 @@ function stateToURL(s) {
   if (s.saved) q.set('s', s.saved); if (s.iv) q.set('iv', s.iv); if (s.ev) q.set('ev', s.ev);
   if (s.pick !== 'likely') q.set('p', s.pick);
   q.set('k', s.cls); q.set('t', s.trainer);
-  return q.toString();
+  return q;
+}
+
+// ---- tab <-> URL: ?tab=calc|dex|items. Only the active tab's own params are kept in the URL -
+// the calc tab gets its full form state, dex/items just keep a search term (?q=) if one is set. ----
+function tabFromURL() {
+  const t = new URLSearchParams(location.search).get('tab');
+  return (t === 'dex' || t === 'items') ? t : 'calc';
+}
+function searchFromURL() {
+  return new URLSearchParams(location.search).get('q') || '';
+}
+function buildViewURL(view) {
+  const q = view === 'calc' ? stateToURL(readState()) : new URLSearchParams();
+  if (view !== 'calc') {
+    const input = view === 'dex' ? $('#dexSearch') : $('#itemSearch');
+    const val = input ? input.value.trim() : '';
+    if (val) q.set('q', val);
+  }
+  q.set('tab', view);
+  return q;
+}
+function syncURL(view) {
+  try { history.replaceState(null, '', location.pathname + '?' + buildViewURL(view).toString()); } catch (e) { /* ignore (e.g. sandboxed frames) */ }
 }
 
 function fillClassSelect(current) {
@@ -162,6 +203,12 @@ function typeChip(name, small) {
   c.style.background = TYPE_COLORS[name.toLowerCase()] || '#777';
   return c;
 }
+// A mono-type Pokémon is stored internally as e.g. ["Normal", "Normal"] -
+// collapse that down to a single chip wherever types are shown.
+function displayTypes(types) {
+  if (!types || !types.length) return [];
+  return (types.length > 1 && types[0] === types[1]) ? [types[0]] : types;
+}
 function barColor(v) { return v <= 29 ? '#f34444' : v <= 59 ? '#ff7f0f' : v <= 89 ? '#ffdd57' : v <= 119 ? '#a0e515' : v <= 149 ? '#23cd5e' : '#00c2b8'; }
 
 // Sprite background: the Pokémon's first type colour, blended into the card's taupe so it stays dull enough
@@ -177,8 +224,16 @@ function spriteBox(name, species, type) {
   const box = el('div', 'sprite');
   const tc = type && TYPE_COLORS[String(type).toLowerCase()];
   if (tc) box.style.background = mixHex(tc, BASE_BG, TYPE_TINT);
+
+  // empty box if no name, or if the name is literally "null" (some trainers.json entries have that)
+  if (name == null || name == "null") return box;
+  // properly format name
+  var name = String(name).normalize('NFD').replace(' ', '_');
+  // handle region forms by only grabbing first letter
+  name = name.replace(/(Alolan|Galarian|Hisuian|Paldean)/, (match) => match[0]);
+  //console.log(name);
   let url = null;
-  try { url = CONFIG.SPRITE_URL && name ? CONFIG.SPRITE_URL(name, species) : null; } catch (e) { url = null; }
+  try { url = CONFIG.SPRITE_URL && name ? CONFIG.SPRITE_URL(name) : null; } catch (e) { url = null; }
   if (url) {
     const img = el('img'); img.src = url; img.alt = name; img.loading = 'lazy'; img.width = 150;
     img.addEventListener('error', () => { img.remove(); box.appendChild(placeholder(name)); });
@@ -198,7 +253,7 @@ function monCard(slot) {
   if (slot && slot.levels !== String(slot.level)) lv.appendChild(el('small', '', 'Lv ' + slot.levels));
   head.appendChild(lv);
   const types = el('div', 'types');
-  if (slot) slot.types.forEach((t) => types.appendChild(typeChip(t)));
+  if (slot) displayTypes(slot.types).forEach((t) => types.appendChild(typeChip(t)));
   head.appendChild(types);
   card.appendChild(head);
 
@@ -301,7 +356,7 @@ function showError(msg) {
 
 async function render() {
   const s = readState();
-  try { history.replaceState(null, '', '?' + stateToURL(s)); } catch (e) { /* ignore (e.g. sandboxed frames) */ }
+  if (currentView === 'calc') syncURL('calc');
   const levels = s.levels.filter((x) => x !== '').map(Number);
   const avg = levels.length ? Math.floor(levels.reduce((a, b) => a + b, 0) / levels.length) : '–';
   $('#avg').textContent = String(avg);
@@ -318,8 +373,259 @@ async function render() {
 }
 function schedule() { clearTimeout(timer); timer = setTimeout(render, 120); }
 
+// ---------------------------------------------------------------- Dex tab (data/pokemon.json)
+const DEX_GENS = [3, 4, 5, 6, 7, 8, 9];
+const DEX_COLS = [
+  { key: 'dexNum', label: '#', cls: 'num' },
+  { key: 'sprite', label: '', sortable: false },
+  { key: 'name', label: 'Name' },
+  { key: 'types', label: 'Type' },
+  { key: 'abilities', label: 'Abilities' },
+  { key: 'items', label: 'Held Items' },
+  { key: 'hp', label: 'HP', cls: 'num' },
+  { key: 'atk', label: 'Atk', cls: 'num' },
+  { key: 'def', label: 'Def', cls: 'num' },
+  { key: 'spa', label: 'SpA', cls: 'num' },
+  { key: 'spd', label: 'SpD', cls: 'num' },
+  { key: 'spe', label: 'Spe', cls: 'num' },
+  { key: 'bst', label: 'BST', cls: 'num' },
+];
+let pokedex = null, pokedexPromise = null;
+let dexSort = { key: 'dexNum', dir: 1 };
+
+function loadDex() {
+  if (!pokedexPromise) {
+    pokedexPromise = fetch('data/pokemon.json')
+      .then((r) => { if (!r.ok) throw new Error('Could not load data/pokemon.json'); return r.json(); })
+      .then((json) => { pokedex = Object.values(json); return pokedex; });
+  }
+  return pokedexPromise;
+}
+
+// Each base stat is stored as a sparse {gen: value} timeline, e.g. {"3": 30, "6": 40}.
+// Resolve the value in effect at a given gen: the entry at the highest key <= gen.
+function statAt(timeline, gen) {
+  let val = null, bestGen = -1;
+  for (const g in timeline) {
+    const gi = Number(g);
+    if (gi <= gen && gi > bestGen) { bestGen = gi; val = timeline[g]; }
+  }
+  if (val === null) { for (const g in timeline) { val = timeline[g]; break; } } // fall back to earliest known value
+  return val;
+}
+
+function dexRowStats(mon, gen) {
+  const s = mon.baseStatsByGen || {};
+  const hp = statAt(s.hp, gen), atk = statAt(s.attack, gen), def = statAt(s.defense, gen),
+        spa = statAt(s.spAttack, gen), spd = statAt(s.spDefense, gen), spe = statAt(s.speed, gen);
+  return { hp, atk, def, spa, spd, spe, bst: [hp, atk, def, spa, spd, spe].reduce((a, b) => a + (b || 0), 0) };
+}
+
+function abilitiesCell(mon) {
+  const cell = el('div');
+  const a = mon.abilities || {};
+  const parts = [a.primary, a.secondary].filter(Boolean);
+  if (parts.length) cell.appendChild(document.createTextNode(parts.join(' / ')));
+  if (a.hidden) {
+    if (parts.length) cell.appendChild(el('br'));
+    const h = el('span', 'hidden-ab', a.hidden + ' (Hidden)');
+    cell.appendChild(h);
+  }
+  if (!parts.length && !a.hidden) cell.appendChild(document.createTextNode('-'));
+  return cell;
+}
+function itemsCell(mon) {
+  const cell = el('div');
+  if (mon.itemCommon) cell.appendChild(itemRow(mon.itemCommon, 'Common'));
+  if (mon.itemRare) cell.appendChild(itemRow(mon.itemRare, 'Rare'));
+  if (!mon.itemCommon && !mon.itemRare) cell.appendChild(itemRow(mon.itemRare, '', true));
+  return cell;
+}
+
+function dexMatches(mon, q) {
+  if (!q) return true;
+  const a = mon.abilities || {};
+  const hay = [mon.name, ...(mon.types || []), a.primary, a.secondary, a.hidden, mon.itemCommon, mon.itemRare]
+    .filter(Boolean).join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
+function renderDexTable() {
+  if (!pokedex) return;
+  //console.log(pokedex);
+  const gen = Number($('#dexGen').value);
+  const q = $('#dexSearch').value.trim().toLowerCase();
+
+  const atGen = pokedex.filter((m) => m.introducedGen == null || m.introducedGen <= gen);
+  const rows = atGen.filter((m) => dexMatches(m, q)).map((m) => ({ mon: m, stats: dexRowStats(m, gen) }));
+  const key = dexSort.key;
+  rows.sort((a, b) => {
+    let av, bv;
+    if (key === 'name') { av = a.mon.name; bv = b.mon.name; }
+    else if (key === 'types') { av = displayTypes(a.mon.types).join(','); bv = displayTypes(b.mon.types).join(','); }
+    else if (key === 'abilities') { av = a.mon.abilities.primary || ''; bv = b.mon.abilities.primary || ''; }
+    else if (key === 'items') { av = a.mon.itemRare || a.mon.itemCommon || ''; bv = b.mon.itemRare || b.mon.itemCommon || ''; }
+    else if (key === 'dexNum') { av = a.mon.dexNum; bv = b.mon.dexNum; }
+    else { av = a.stats[key]; bv = b.stats[key]; }
+    if (av < bv) return -1 * dexSort.dir; if (av > bv) return 1 * dexSort.dir; return 0;
+  });
+
+  const tbody = $('#dexTable tbody'); tbody.innerHTML = '';
+  rows.forEach(({ mon, stats }) => {
+    const tr = el('tr');
+    tr.appendChild(el('td', 'num', String(mon.dexNum)));
+    const spriteTd = el('td', 'dex-sprite');
+    spriteTd.appendChild(spriteBox(mon.name, mon.species, displayTypes(mon.types)[0]));
+    tr.appendChild(spriteTd);
+    tr.appendChild(el('td', 'dex-name', mon.name));
+    const typesTd = el('td'); const typesWrap = el('div', 'dex-types');
+    displayTypes(mon.types).forEach((t) => typesWrap.appendChild(typeChip(t, true)));
+    typesTd.appendChild(typesWrap); tr.appendChild(typesTd);
+    const abTd = el('td', 'dex-abilities'); abTd.appendChild(abilitiesCell(mon)); tr.appendChild(abTd);
+    const itTd = el('td', 'dex-items'); itTd.appendChild(itemsCell(mon)); tr.appendChild(itTd);
+    ['hp', 'atk', 'def', 'spa', 'spd', 'spe', 'bst'].forEach((k) => tr.appendChild(el('td', 'num', stats[k] === null ? '-' : String(stats[k]))));
+    tbody.appendChild(tr);
+  });
+
+  $('#dexEmpty').hidden = rows.length !== 0;
+  $('#dexCount').textContent = rows.length + ' of ' + atGen.length + ' Pokémon';
+}
+
+function buildDexTableHead() {
+  const thead = $('#dexTable thead'); thead.innerHTML = '';
+  const tr = el('tr');
+  DEX_COLS.forEach((c) => {
+    const th = el('th', null, c.label);
+    if (c.cls) th.classList.add(c.cls);
+    if (c.sortable === false) { tr.appendChild(th); return; }
+    th.addEventListener('click', () => {
+      if (dexSort.key === c.key) dexSort.dir *= -1; else dexSort = { key: c.key, dir: 1 };
+      thead.querySelectorAll('th').forEach((h) => h.classList.remove('sorted', 'asc'));
+      th.classList.add('sorted'); if (dexSort.dir === 1) th.classList.add('asc');
+      renderDexTable();
+    });
+    tr.appendChild(th);
+  });
+  thead.appendChild(tr);
+}
+
+async function initDexTab() {
+  const genSel = $('#dexGen');
+  if (!genSel.options.length) {
+    DEX_GENS.forEach((g) => { const o = el('option', '', 'Gen ' + g + (g === DEX_GENS[DEX_GENS.length - 1] ? ' (latest)' : '')); o.value = String(g); genSel.appendChild(o); });
+    genSel.value = String(DEX_GENS[DEX_GENS.length - 1]);
+    buildDexTableHead();
+    $('#dexSearch').addEventListener('input', () => { renderDexTable(); syncURL('dex'); });
+    genSel.addEventListener('change', renderDexTable);
+  }
+  $('#dexCount').textContent = 'Loading…';
+  try { await loadDex(); renderDexTable(); }
+  catch (e) { $('#dexCount').textContent = 'Could not load the Dex data.'; }
+}
+
+// ---------------------------------------------------------------- Items tab (data/items.json)
+// items.json shape: { "ITEM_GREAT_BALL": ["Verdanturf Town Mart", "Route 118 - Hidden", "Route 119 - Pokeball"], ... }
+let itemsData = null, itemsPromise = null;
+
+function loadItems() {
+  if (!itemsPromise) {
+    itemsPromise = fetch('data/items.json')
+      .then((r) => { if (!r.ok) throw new Error('Could not load data/items.json'); return r.json(); })
+      .then((json) => { itemsData = json; return itemsData; });
+  }
+  return itemsPromise;
+}
+
+// A location like "Route118 - Hidden" or "Route110 - Trick House Puzzle8 - Pokeball" carries its kind as a
+// " - Hidden" / " - Pokeball" suffix (see merge_item_sources.py); anything without that suffix is a store/mart
+// listing (see build_item_locations.py). Split the suffix off so it can drive the pill's color instead of just
+// sitting in the text.
+function locationKind(loc) {
+  const m = String(loc).match(/^(.*)\s-\s(Hidden|Pokeball)$/i);
+  return m ? { text: m[1], kind: m[2].toLowerCase(), label: m[2] } : { text: loc, kind: 'store', label: 'Store' };
+}
+function locationPill(loc) {
+  const { text, kind, label } = locationKind(loc);
+  const pill = el('span', 'pill pill-' + kind);
+  pill.appendChild(document.createTextNode(text));
+  pill.appendChild(el('b', '', label));
+  return pill;
+}
+
+function itemMatches(name, locs, q) {
+  if (!q) return true;
+  if (name.toLowerCase().includes(q)) return true;
+  return locs.some((l) => l.toLowerCase().includes(q));
+}
+
+function renderItemsTable() {
+  if (!itemsData) return;
+  const q = $('#itemSearch').value.trim().toLowerCase();
+  const all = Object.entries(itemsData).map(([code, locs]) => ({ code, name: prettyItem(code), locs: locs || [] }));
+  const rows = all.filter((r) => itemMatches(r.name, r.locs, q)).sort((a, b) => a.name.localeCompare(b.name));
+
+  const tbody = $('#itemsTable tbody'); tbody.innerHTML = '';
+  rows.forEach((r) => {
+    const tr = el('tr');
+    const spriteTd = el('td', 'item-sprite');
+    const ico = itemIcon(r.name);
+    spriteTd.appendChild(ico || el('span', 'ph-item'));
+    tr.appendChild(spriteTd);
+    tr.appendChild(el('td', 'item-name', r.name));
+    const locTd = el('td', 'item-locs');
+    if (r.locs.length) r.locs.forEach((loc) => locTd.appendChild(locationPill(loc)));
+    else locTd.appendChild(document.createTextNode('-'));
+    tr.appendChild(locTd);
+    tbody.appendChild(tr);
+  });
+
+  $('#itemsEmpty').hidden = rows.length !== 0;
+  $('#itemsCount').textContent = rows.length + ' of ' + all.length + ' items';
+}
+
+async function initItemsTab() {
+  if (!$('#itemSearch').dataset.bound) {
+    $('#itemSearch').dataset.bound = '1';
+    $('#itemSearch').addEventListener('input', () => { renderItemsTable(); syncURL('items'); });
+  }
+  $('#itemsCount').textContent = 'Loading…';
+  try { await loadItems(); renderItemsTable(); }
+  catch (e) { $('#itemsCount').textContent = 'Could not load the item data.'; }
+}
+
+// Two layers here on purpose: applyView() only touches the DOM (safe to call before the form/backend
+// are ready), while showView() also syncs the URL - only safe once the form actually reflects real
+// state, so it's used for user-triggered tab switches, not the very first view on page load (see
+// initTabs(), which must not stomp the incoming URL - e.g. a shared calc link, or ?q= - before it's
+// even been read).
+function applyView(view) {
+  currentView = view;
+  $('#view-calc').hidden = view !== 'calc';
+  $('#view-dex').hidden = view !== 'dex';
+  $('#view-items').hidden = view !== 'items';
+  $('#tab-calc').setAttribute('aria-selected', String(view === 'calc'));
+  $('#tab-dex').setAttribute('aria-selected', String(view === 'dex'));
+  $('#tab-items').setAttribute('aria-selected', String(view === 'items'));
+  if (view === 'dex') initDexTab();
+  if (view === 'items') initItemsTab();
+}
+function showView(view) {
+  applyView(view);
+  syncURL(view);
+}
+function initTabs() {
+  $('#tab-calc').addEventListener('click', () => showView('calc'));
+  $('#tab-dex').addEventListener('click', () => showView('dex'));
+  $('#tab-items').addEventListener('click', () => showView('items'));
+  const view = tabFromURL(), q = searchFromURL();
+  if (view === 'dex') $('#dexSearch').value = q;
+  if (view === 'items') $('#itemSearch').value = q;
+  applyView(view); // no syncURL here - leave the incoming URL alone until render() (calc) or a real edit (dex/items) updates it
+}
+
 // ---------------------------------------------------------------- start-up
 export async function init() {
+  initTabs();
   buildForm();
   const s = stateFromURL();
   backend = await loadBackend();

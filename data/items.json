@@ -1,0 +1,1605 @@
+{
+  "ITEM_ABILITY_CAPSULE": [
+    "Oldale Town Mart Pokemart Expanded",
+    "Route106 - Pokeball"
+  ],
+  "ITEM_ABILITY_PATCH": [
+    "Oldale Town Mart Pokemart Expanded"
+  ],
+  "ITEM_ADAMANT_MINT": [
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_AERODACTYLITE": [
+    "Route110 - Hidden"
+  ],
+  "ITEM_AGGRONITE": [
+    "Rusturf Tunnel - Hidden"
+  ],
+  "ITEM_ALAKAZITE": [
+    "Route119 - Hidden"
+  ],
+  "ITEM_ALORAICHIUM_Z": [
+    "Mauville City - Hidden"
+  ],
+  "ITEM_ALTARIANITE": [
+    "Route123 - Hidden"
+  ],
+  "ITEM_AMULET_COIN": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_ANTIDOTE": [
+    "Fallarbor Town Mart Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mauville City Mart Pokemart",
+    "Oldale Town Mart Pokemart Basic",
+    "Oldale Town Mart Pokemart Expanded",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_AUDINITE": [
+    "Route109 - Hidden"
+  ],
+  "ITEM_AUSPICIOUS_ARMOR": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_AWAKENING": [
+    "Fortree City Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mauville City Mart Pokemart",
+    "Oldale Town Mart Pokemart Basic",
+    "Oldale Town Mart Pokemart Expanded",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_BANETTITE": [
+    "Mt Pyre - Exterior - Hidden"
+  ],
+  "ITEM_BEAD_MAIL": [
+    "Route110 - Trick House Puzzle8 - Pokeball"
+  ],
+  "ITEM_BEAST_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1"
+  ],
+  "ITEM_BEEDRILLITE": [
+    "Route104 - Hidden"
+  ],
+  "ITEM_BERSERK_GENE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BIG_MALASADA": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BIG_PEARL": [
+    "Route105 - Hidden",
+    "Route125 - Pokeball",
+    "Route133 - Pokeball",
+    "Safari Zone - Southeast - Pokeball",
+    "Shoal Cave - Low Tide Entrance Room - Pokeball",
+    "Underwater - Route124 - Hidden",
+    "Underwater - Route126 - Hidden"
+  ],
+  "ITEM_BIG_ROOT": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BLACK_AUGURITE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BLACK_GLASSES": [
+    "Route116 - Hidden"
+  ],
+  "ITEM_BLACK_SLUDGE": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BLASTOISINITE": [
+    "Underwater - Route128 - Hidden"
+  ],
+  "ITEM_BLAZIKENITE": [
+    "Route113 - Hidden"
+  ],
+  "ITEM_BLUE_SHARD": [
+    "Route124 - Pokeball",
+    "Underwater - Route126 - Hidden"
+  ],
+  "ITEM_BOLD_MINT": [
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BOTTLE_CAP": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BRAVE_MINT": [
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BRIGHT_POWDER": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_BUGINIUM_Z": [
+    "Petalburg Woods - Hidden"
+  ],
+  "ITEM_BURN_HEAL": [
+    "Jagged Pass - Pokeball",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_CALCIUM": [
+    "Artisan Cave - B1F - Hidden",
+    "Battle Frontier Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Vitamins",
+    "Route123 - Pokeball",
+    "Safari Zone - North - Pokeball",
+    "Slateport City Pokemart Energy Guru",
+    "Underwater - Route124 - Hidden"
+  ],
+  "ITEM_CALM_MINT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_CAMERUPTITE": [
+    "Petalburg City - Hidden"
+  ],
+  "ITEM_CARBOS": [
+    "Artisan Cave - 1F - Pokeball",
+    "Battle Frontier Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Vitamins",
+    "Route121 - Pokeball",
+    "Route127 - Pokeball",
+    "Slateport City Pokemart Energy Guru"
+  ],
+  "ITEM_CAREFUL_MINT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_CHARIZARDITE_Y": [
+    "Route109 - Hidden"
+  ],
+  "ITEM_CHIPPED_POT": [
+    "Abandoned Ship - Rooms2 - 1F - Pokeball",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_CHOICE_SCARF": [
+    "Abandoned Ship - Rooms - 1F - Pokeball"
+  ],
+  "ITEM_CHOICE_SPECS": [
+    "New Mauville - Inside - Pokeball"
+  ],
+  "ITEM_CLEANSE_TAG": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_CLEVER_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_CORNERSTONE_MASK": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_CRACKED_POT": [
+    "Abandoned Ship - Hidden Floor Rooms - Pokeball",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_DAMP_ROCK": [
+    "Aqua Hideout - B1F - Pokeball"
+  ],
+  "ITEM_DARKINIUM_Z": [
+    "Sky Pillar - 5F - Hidden"
+  ],
+  "ITEM_DARK_GEM": [
+    "Aqua Hideout - B2F - Pokeball"
+  ],
+  "ITEM_DAWN_STONE": [
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_DECIDIUM_Z": [
+    "Route120 - Hidden"
+  ],
+  "ITEM_DESTINY_KNOT": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_DIRE_HIT": [
+    "Fallarbor Town Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Mauville City Mart Pokemart",
+    "Route110 - Pokeball",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_DIVE_BALL": [
+    "Abandoned Ship - Rooms2 - B1F - Pokeball",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mossdeep City Mart Pokemart"
+  ],
+  "ITEM_DRAGON_GEM": [
+    "Route134 - Pokeball"
+  ],
+  "ITEM_DRAGON_SCALE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_DUBIOUS_DISC": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_DUSK_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_DUSK_STONE": [
+    "Route105 - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_EEVIUM_Z": [
+    "Route119 - Hidden"
+  ],
+  "ITEM_ELECTIRIZER": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_ELECTRIC_GEM": [
+    "New Mauville - Inside - Pokeball"
+  ],
+  "ITEM_ELIXIR": [
+    "Route110 - Pokeball",
+    "Route111 - Pokeball",
+    "Route119 - Pokeball",
+    "Route123 - Pokeball",
+    "Victory Road - B2F - Hidden"
+  ],
+  "ITEM_ENERGY_POWDER": [
+    "Lavaridge Town Herb Shop Pokemart",
+    "Route114 - Pokeball"
+  ],
+  "ITEM_ENERGY_ROOT": [
+    "Lavaridge Town Herb Shop Pokemart"
+  ],
+  "ITEM_EON_FLUTE": [
+    "Southern Island - Interior - Hidden"
+  ],
+  "ITEM_ESCAPE_ROPE": [
+    "Granite Cave - 1F - Pokeball"
+  ],
+  "ITEM_ETHER": [
+    "Petalburg City - Pokeball",
+    "Petalburg Woods - Pokeball",
+    "Route109 - Hidden",
+    "Route116 - Pokeball"
+  ],
+  "ITEM_EVERSTONE": [
+    "Granite Cave - B2F - Hidden",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_EVIOLITE": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_EXPERT_BELT": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_EXP_CANDY_XS": [
+    "Oldale Town Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_FAIRIUM_Z": [
+    "Route114 - Hidden"
+  ],
+  "ITEM_FIRE_GEM": [
+    "Magma Hideout - 3F - 3R - Pokeball"
+  ],
+  "ITEM_FIRE_STONE": [
+    "Fiery Path - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_FIRIUM_Z": [
+    "Fiery Path - Hidden"
+  ],
+  "ITEM_FLOAT_STONE": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_FLUFFY_TAIL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_FLYINIUM_Z": [
+    "Sky Pillar - Top - Hidden"
+  ],
+  "ITEM_FOCUS_BAND": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_FOCUS_SASH": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_FRESH_START_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_FRIEND_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1"
+  ],
+  "ITEM_FULL_HEAL": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Jagged Pass - Hidden",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Meteor Falls - 1F - 1R - Pokeball",
+    "Mossdeep City Mart Pokemart",
+    "New Mauville - Inside - Pokeball",
+    "Route120 - Pokeball",
+    "Route121 - Hidden",
+    "Sootopolis City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Expanded",
+    "Victory Road - B2F - Pokeball"
+  ],
+  "ITEM_FULL_RESTORE": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Magma Hideout - 2F - 2R - Pokeball",
+    "Safari Zone - Southeast - Hidden",
+    "Trainer Hill Entrance Pokemart Expanded",
+    "Victory Road - B1F - Pokeball"
+  ],
+  "ITEM_GALARICA_CUFF": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_GALARICA_WREATH": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_GALLADITE": [
+    "Route113 - Hidden"
+  ],
+  "ITEM_GARDEVOIRITE": [
+    "Route118 - Hidden"
+  ],
+  "ITEM_GENIUS_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_GENTLE_MINT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_GLALITITE": [
+    "Route111 - Hidden"
+  ],
+  "ITEM_GLITTER_MAIL": [
+    "Route110 - Trick House Puzzle6 - Pokeball"
+  ],
+  "ITEM_GOLD_BOTTLE_CAP": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_GRASSIUM_Z": [
+    "Route104 - Hidden"
+  ],
+  "ITEM_GREAT_BALL": [
+    "Fallarbor Town Mart Pokemart",
+    "Fortree City Mart Pokemart",
+    "Jagged Pass - Hidden",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mauville City Mart Pokemart",
+    "Petalburg City Mart Pokemart Expanded",
+    "Petalburg Woods - Pokeball",
+    "Route115 - Pokeball",
+    "Route117 - Pokeball",
+    "Slateport City Mart Pokemart",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_GREEN_SHARD": [
+    "Route126 - Pokeball",
+    "Underwater - Route124 - Hidden"
+  ],
+  "ITEM_GRIP_CLAW": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_GROUNDIUM_Z": [
+    "Route111 - Hidden"
+  ],
+  "ITEM_GUARD_SPEC": [
+    "Fallarbor Town Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Mauville City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_GYARADOSITE": [
+    "Route105 - Hidden"
+  ],
+  "ITEM_HARBOR_MAIL": [
+    "Route110 - Trick House Puzzle2 - Pokeball",
+    "Slateport City Mart Pokemart"
+  ],
+  "ITEM_HASTY_MINT": [
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_HEALTH_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_HEAL_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1"
+  ],
+  "ITEM_HEAL_POWDER": [
+    "Lavaridge Town Herb Shop Pokemart",
+    "Route115 - Pokeball"
+  ],
+  "ITEM_HEARTHFLAME_MASK": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_HEART_SCALE": [
+    "Route104 - Hidden",
+    "Route106 - Hidden",
+    "Route109 - Hidden",
+    "Route128 - Hidden",
+    "Underwater - Route124 - Hidden",
+    "Underwater - Route126 - Hidden",
+    "Underwater - Route127 - Hidden"
+  ],
+  "ITEM_HERACRONITE": [
+    "Route110 - Hidden"
+  ],
+  "ITEM_HOUNDOOMINITE": [
+    "Lavaridge Town - Hidden"
+  ],
+  "ITEM_HP_UP": [
+    "Artisan Cave - B1F - Pokeball",
+    "Battle Frontier Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Vitamins",
+    "Route111 - Pokeball",
+    "Route116 - Pokeball",
+    "Slateport City Pokemart Energy Guru",
+    "Underwater - Route127 - Hidden"
+  ],
+  "ITEM_HYPER_POTION": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Mossdeep City Mart Pokemart",
+    "Route113 - Pokeball",
+    "Route118 - Pokeball",
+    "Route119 - Pokeball",
+    "Route120 - Pokeball",
+    "Route123 - Hidden",
+    "Sootopolis City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_ICE_HEAL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Shoal Cave - Low Tide Stairs Room - Pokeball",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_ICE_STONE": [
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_IMPISH_MINT": [
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_INCINIUM_Z": [
+    "Route119 - Hidden"
+  ],
+  "ITEM_IRON": [
+    "Battle Frontier Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Vitamins",
+    "Route115 - Pokeball",
+    "Slateport City Pokemart Energy Guru",
+    "Underwater - Route126 - Hidden"
+  ],
+  "ITEM_IRON_BALL": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_JOLLY_MINT": [
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_KANGASKHANITE": [
+    "Dewford Town - Hidden"
+  ],
+  "ITEM_KEY_TO_ROOM_1": [
+    "Abandoned Ship - Hidden Floor Rooms - Hidden"
+  ],
+  "ITEM_KEY_TO_ROOM_2": [
+    "Abandoned Ship - Hidden Floor Rooms - Hidden"
+  ],
+  "ITEM_KEY_TO_ROOM_4": [
+    "Abandoned Ship - Hidden Floor Rooms - Hidden"
+  ],
+  "ITEM_KEY_TO_ROOM_6": [
+    "Abandoned Ship - Hidden Floor Rooms - Hidden"
+  ],
+  "ITEM_KINGS_ROCK": [
+    "Route102 - Pokeball",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_KOMMONIUM_Z": [
+    "Mossdeep City - Hidden"
+  ],
+  "ITEM_LAGGING_TAIL": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LATIASITE": [
+    "Route111 - Hidden"
+  ],
+  "ITEM_LATIOSITE": [
+    "Mt Pyre - Exterior - Hidden"
+  ],
+  "ITEM_LAX_INCENSE": [
+    "Mt Pyre - 5F - Pokeball"
+  ],
+  "ITEM_LAX_MINT": [
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LEADERS_CREST": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LEAF_STONE": [
+    "Route119 - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LEFTOVERS": [
+    "SSTidal Lower Deck - Hidden",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LEVEL_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LIFE_ORB": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LIGHT_CLAY": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LINKING_CORD": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LONELY_MINT": [
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LOPUNNITE": [
+    "Granite Cave - B2F - Hidden"
+  ],
+  "ITEM_LOVE_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1"
+  ],
+  "ITEM_LUCARIONITE": [
+    "Route109 - Hidden"
+  ],
+  "ITEM_LUCKY_EGG": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LURE": [
+    "Oldale Town Mart Pokemart Expanded"
+  ],
+  "ITEM_LURE_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LUXURY_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_LYCANIUM_Z": [
+    "Route121 - Hidden"
+  ],
+  "ITEM_MAGMARIZER": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MALICIOUS_ARMOR": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MANECTITE": [
+    "Route110 - Hidden"
+  ],
+  "ITEM_MARSHADIUM_Z": [
+    "Route119 - Hidden",
+    "Route120 - Hidden"
+  ],
+  "ITEM_MASTERPIECE_TEACUP": [
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MASTER_BALL": [
+    "Aqua Hideout - B1F - Pokeball"
+  ],
+  "ITEM_MAWILITE": [
+    "Route117 - Hidden"
+  ],
+  "ITEM_MAX_ELIXIR": [
+    "Aqua Hideout - B1F - Pokeball",
+    "Magma Hideout - 2F - 2R - Pokeball",
+    "Victory Road - 1F - Pokeball"
+  ],
+  "ITEM_MAX_ETHER": [
+    "Route113 - Pokeball",
+    "Rusturf Tunnel - Pokeball"
+  ],
+  "ITEM_MAX_LURE": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MAX_POTION": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Mt Pyre - Exterior - Pokeball",
+    "Sootopolis City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_MAX_REPEL": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Lilycove City - Pokeball",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Mossdeep City Mart Pokemart",
+    "Slateport City Mart Black Market Expanded3",
+    "Sootopolis City Mart Pokemart",
+    "Victory Road - B2F - Hidden"
+  ],
+  "ITEM_MAX_REVIVE": [
+    "Magma Hideout - 4F - Pokeball",
+    "Petalburg City - Pokeball",
+    "Route121 - Hidden",
+    "Route133 - Pokeball",
+    "Safari Zone - Southwest - Pokeball"
+  ],
+  "ITEM_MECH_MAIL": [
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Route110 - Trick House Puzzle4 - Pokeball"
+  ],
+  "ITEM_MENTAL_HERB": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_METAL_COAT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_METRONOME": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MILD_MINT": [
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MIMIKIUM_Z": [
+    "Petalburg Woods - Hidden"
+  ],
+  "ITEM_MODEST_MINT": [
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MOON_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1"
+  ],
+  "ITEM_MOON_STONE": [
+    "Meteor Falls - 1F - 1R - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MUSCLE_BAND": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_MUSCLE_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_NAIVE_MINT": [
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_NAUGHTY_MINT": [
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_NEST_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Route120 - Pokeball",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_NET_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mossdeep City - Pokeball",
+    "Mossdeep City Mart Pokemart"
+  ],
+  "ITEM_NEVER_MELT_ICE": [
+    "Shoal Cave - Low Tide Ice Room - Pokeball"
+  ],
+  "ITEM_NUGGET": [
+    "Fallarbor Town - Hidden",
+    "Magma Hideout - 3F - 1R - Pokeball",
+    "Route110 - Trick House End - Hidden",
+    "Route112 - Pokeball",
+    "Route119 - Pokeball",
+    "Route120 - Pokeball",
+    "Safari Zone - Northeast - Pokeball"
+  ],
+  "ITEM_N_LUNARIZER": [
+    "Meteor Falls - 1F - 1R - Hidden"
+  ],
+  "ITEM_ORANGE_MAIL": [
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Route110 - Trick House Puzzle1 - Pokeball"
+  ],
+  "ITEM_OVAL_STONE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PARALYZE_HEAL": [
+    "Fallarbor Town Mart Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mauville City Mart Pokemart",
+    "Oldale Town Mart Pokemart Basic",
+    "Oldale Town Mart Pokemart Expanded",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Petalburg Woods - Pokeball",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_PEARL": [
+    "Underwater - Route124 - Hidden",
+    "Underwater - Route126 - Hidden",
+    "Underwater - Route128 - Hidden"
+  ],
+  "ITEM_PEAT_BLOCK": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PEWTER_CRUNCHIES": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PIKASHUNIUM_Z": [
+    "Lilycove City - Hidden"
+  ],
+  "ITEM_PINK_NECTAR": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PINSIRITE": [
+    "Petalburg Woods - Hidden"
+  ],
+  "ITEM_POISONIUM_Z": [
+    "Route118 - Hidden"
+  ],
+  "ITEM_POKE_BALL": [
+    "Granite Cave - B1F - Pokeball",
+    "Lilycove City - Hidden",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mauville City Mart Pokemart",
+    "Oldale Town Mart Pokemart Expanded",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Petalburg Woods - Hidden",
+    "Route104 - Pokeball",
+    "Route110 - Hidden",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Rusturf Tunnel - Pokeball",
+    "Slateport City Mart Pokemart"
+  ],
+  "ITEM_POTION": [
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Oldale Town Mart Pokemart Basic",
+    "Oldale Town Mart Pokemart Expanded",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Route104 - Hidden",
+    "Route104 - Pokeball",
+    "Route109 - Pokeball",
+    "Route116 - Pokeball",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Pokemart"
+  ],
+  "ITEM_POWER_HERB": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PP_MAX": [
+    "Magma Hideout - 3F - 2R - Pokeball"
+  ],
+  "ITEM_PP_UP": [
+    "Lilycove City - Hidden",
+    "Meteor Falls - 1F - 1R - Pokeball",
+    "Route104 - Pokeball",
+    "Route109 - Pokeball",
+    "Route115 - Pokeball",
+    "Route123 - Hidden",
+    "Route123 - Pokeball",
+    "Safari Zone - Southeast - Hidden",
+    "Victory Road - 1F - Pokeball"
+  ],
+  "ITEM_PRIMARIUM_Z": [
+    "Route120 - Hidden"
+  ],
+  "ITEM_PRISM_SCALE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PRISON_BOTTLE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PROTECTOR": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_PROTEIN": [
+    "Artisan Cave - B1F - Hidden",
+    "Battle Frontier Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Vitamins",
+    "Route114 - Pokeball",
+    "Route132 - Pokeball",
+    "Slateport City Pokemart Energy Guru"
+  ],
+  "ITEM_PSYCHIUM_Z": [
+    "Route121 - Hidden"
+  ],
+  "ITEM_PURPLE_NECTAR": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_QUICK_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_QUICK_CLAW": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_QUIET_MINT": [
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_RARE_CANDY": [
+    "Granite Cave - B2F - Pokeball",
+    "Magma Hideout - 1F - Pokeball",
+    "Mt Pyre - Summit - Hidden",
+    "Route108 - Hidden",
+    "Route110 - Pokeball",
+    "Route114 - Pokeball",
+    "Route119 - Pokeball",
+    "Route123 - Hidden",
+    "Route127 - Pokeball",
+    "Route132 - Pokeball",
+    "Safari Zone - Northeast - Hidden",
+    "Shoal Cave - Low Tide Inner Room - Pokeball"
+  ],
+  "ITEM_RASH_MINT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_RAZOR_CLAW": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_RAZOR_FANG": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_REAPER_CLOTH": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_RED_NECTAR": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_RED_SHARD": [
+    "Route124 - Pokeball",
+    "Underwater - Route127 - Hidden"
+  ],
+  "ITEM_RELAXED_MINT": [
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_REPEAT_BALL": [
+    "Rustboro City Mart Pokemart Expanded"
+  ],
+  "ITEM_REPEL": [
+    "Granite Cave - B2F - Pokeball",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Oldale Town Mart Pokemart Expanded",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Route116 - Pokeball",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Pokemart",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_RESIST_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_REVIVAL_HERB": [
+    "Lavaridge Town Herb Shop Pokemart",
+    "Route123 - Pokeball"
+  ],
+  "ITEM_REVIVE": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Mossdeep City Mart Pokemart",
+    "Route117 - Pokeball",
+    "Route120 - Pokeball",
+    "Route121 - Pokeball",
+    "Sootopolis City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_ROCKIUM_Z": [
+    "Route116 - Hidden"
+  ],
+  "ITEM_ROTOM_CATALOG": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SACHET": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SACRED_ASH": [
+    "Navel Rock - Top - Hidden"
+  ],
+  "ITEM_SALAMENCITE": [
+    "Route114 - Hidden"
+  ],
+  "ITEM_SASSY_MINT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SCANNER": [
+    "Abandoned Ship - Hidden Floor Rooms - Pokeball"
+  ],
+  "ITEM_SCEPTILITE": [
+    "Route104 - Hidden"
+  ],
+  "ITEM_SCOPE_LENS": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SCROLL_OF_DARKNESS": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SCROLL_OF_WATERS": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SEA_INCENSE": [
+    "Mt Pyre - 4F - Pokeball"
+  ],
+  "ITEM_SERIOUS_MINT": [
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SHADOW_MAIL": [
+    "Route110 - Trick House Puzzle3 - Pokeball",
+    "Sootopolis City Mart Pokemart"
+  ],
+  "ITEM_SHARPEDONITE": [
+    "Underwater - Route124 - Hidden"
+  ],
+  "ITEM_SHED_SHELL": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SHELL_BELL": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SHINY_STONE": [
+    "Route103 - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SLOWBRONITE": [
+    "Route106 - Hidden"
+  ],
+  "ITEM_SMOKE_BALL": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SNORLIUM_Z": [
+    "Route113 - Hidden"
+  ],
+  "ITEM_SOOTHE_BELL": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_STARDUST": [
+    "Route111 - Pokeball",
+    "Underwater - Route126 - Hidden"
+  ],
+  "ITEM_STAR_PIECE": [
+    "Route108 - Pokeball",
+    "Route133 - Pokeball",
+    "Route134 - Pokeball",
+    "Underwater - Route127 - Hidden"
+  ],
+  "ITEM_STEELIUM_Z": [
+    "Route106 - Hidden"
+  ],
+  "ITEM_STEELIXITE": [
+    "Route109 - Hidden"
+  ],
+  "ITEM_STICKY_BARB": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_STORAGE_KEY": [
+    "Abandoned Ship - Captains Office - Pokeball"
+  ],
+  "ITEM_SUN_STONE": [
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SUPER_LURE": [
+    "Oldale Town Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SUPER_POTION": [
+    "Fallarbor Town Mart Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Mauville City Mart Pokemart",
+    "Petalburg City Mart Pokemart Expanded",
+    "Route115 - Pokeball",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_SUPER_REPEL": [
+    "Fallarbor Town Mart Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Mt Pyre - 3F - Pokeball",
+    "Oldale Town Mart Pokemart Expanded",
+    "Route113 - Pokeball",
+    "Route119 - Pokeball",
+    "Route123 - Hidden",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SWEET_APPLE": [
+    "Rustboro City - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SWIFT_MOCHI": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_SYRUPY_APPLE": [
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_TART_APPLE": [
+    "Mauville City - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_THUNDER_STONE": [
+    "New Mauville - Inside - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_TIMER_BALL": [
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Rustboro City Mart Pokemart Expanded",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_TIMID_MINT": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_TM01": [
+    "Route115 - Pokeball"
+  ],
+  "ITEM_TM02": [
+    "Meteor Falls - B1F - 2R - Pokeball"
+  ],
+  "ITEM_TM06": [
+    "Fiery Path - Pokeball"
+  ],
+  "ITEM_TM07": [
+    "Shoal Cave - Low Tide Ice Room - Pokeball"
+  ],
+  "ITEM_TM10": [
+    "Slateport City Pokemart Power TMs"
+  ],
+  "ITEM_TM100": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM11": [
+    "Scorched Slab - Pokeball"
+  ],
+  "ITEM_TM13": [
+    "Abandoned Ship - Room - B1F - Pokeball"
+  ],
+  "ITEM_TM14": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM15": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM16": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM17": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM18": [
+    "Abandoned Ship - Hidden Floor Rooms - Pokeball"
+  ],
+  "ITEM_TM20": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM22": [
+    "Safari Zone - Northwest - Pokeball"
+  ],
+  "ITEM_TM23": [
+    "Meteor Falls - 1F - 1R - Pokeball"
+  ],
+  "ITEM_TM25": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM26": [
+    "Seafloor Cavern - Room9 - Pokeball"
+  ],
+  "ITEM_TM29": [
+    "Victory Road - B1F - Pokeball"
+  ],
+  "ITEM_TM30": [
+    "Mt Pyre - 6F - Pokeball"
+  ],
+  "ITEM_TM33": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM37": [
+    "Route111 - Pokeball"
+  ],
+  "ITEM_TM38": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM43": [
+    "Slateport City Pokemart Power TMs"
+  ],
+  "ITEM_TM48": [
+    "Mt Pyre - Exterior - Pokeball"
+  ],
+  "ITEM_TM51": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM52": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM53": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM54": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM55": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM56": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM57": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM58": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM59": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM60": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM61": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM62": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM63": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM64": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM65": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM66": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM67": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM68": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM69": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM70": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM71": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM72": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM73": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM74": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM75": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM76": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM77": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM78": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM79": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM80": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM81": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM82": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM83": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM84": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM85": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM86": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM87": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM88": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM89": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM90": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM91": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM92": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM93": [
+    "Lilycove City Department Store 4 F Pokemart Defense TMs"
+  ],
+  "ITEM_TM94": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM95": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM96": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM97": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM98": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TM99": [
+    "Lilycove City Department Store 4 F Pokemart Attack TMs"
+  ],
+  "ITEM_TROPIC_MAIL": [
+    "Route110 - Trick House Puzzle7 - Pokeball"
+  ],
+  "ITEM_ULTRA_BALL": [
+    "Battle Frontier Mart Pokemart",
+    "Ever Grande City Pokemon League 1 F Pokemart",
+    "Fortree City Mart Pokemart",
+    "Lilycove City Department Store 2 F Pokemart1",
+    "Mossdeep City Mart Pokemart",
+    "Mt Pyre - 2F - Pokeball",
+    "New Mauville - Inside - Pokeball",
+    "Route123 - Pokeball",
+    "Sootopolis City Mart Pokemart",
+    "Underwater - Route126 - Hidden",
+    "Victory Road - 1F - Hidden"
+  ],
+  "ITEM_UNREMARKABLE_TEACUP": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_UPGRADE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_VENUSAURITE": [
+    "Route120 - Hidden"
+  ],
+  "ITEM_WATER_GEM": [
+    "Abandoned Ship - Rooms - B1F - Pokeball"
+  ],
+  "ITEM_WATER_STONE": [
+    "Abandoned Ship - Hidden Floor Rooms - Pokeball",
+    "Slateport City Mart Black Market Basic",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_WAVE_MAIL": [
+    "Lilycove City Department Store 2 F Pokemart2",
+    "Route110 - Trick House Puzzle2 - Pokeball"
+  ],
+  "ITEM_WELLSPRING_MASK": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_WHIPPED_DREAM": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_WHITE_HERB": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_WIDE_LENS": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_WISE_GLASSES": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_WOOD_MAIL": [
+    "Fortree City Mart Pokemart",
+    "Route110 - Trick House Puzzle3 - Pokeball"
+  ],
+  "ITEM_X_ACCURACY": [
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Mauville City Mart Pokemart",
+    "Route104 - Pokeball",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_X_ATTACK": [
+    "Fallarbor Town Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Mauville City Mart Pokemart",
+    "Mossdeep City Mart Pokemart",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Petalburg Woods - Pokeball",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Sootopolis City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_X_DEFENSE": [
+    "Fallarbor Town Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Mauville City Mart Pokemart",
+    "Mossdeep City Mart Pokemart",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Sootopolis City Mart Pokemart",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_X_SPEED": [
+    "Fallarbor Town Mart Pokemart",
+    "Lavaridge Town Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Mauville City Mart Pokemart",
+    "Petalburg City Mart Pokemart Basic",
+    "Petalburg City Mart Pokemart Expanded",
+    "Rustboro City Mart Pokemart Basic",
+    "Rustboro City Mart Pokemart Expanded",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded"
+  ],
+  "ITEM_X_SP_ATK": [
+    "Fallarbor Town Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Stat Boosters",
+    "Route116 - Pokeball",
+    "Trainer Hill Entrance Pokemart Basic",
+    "Trainer Hill Entrance Pokemart Expanded",
+    "Verdanturf Town Mart Pokemart"
+  ],
+  "ITEM_YELLOW_NECTAR": [
+    "Route103 - Pokeball",
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_YELLOW_SHARD": [
+    "Route124 - Pokeball",
+    "Underwater - Route126 - Hidden"
+  ],
+  "ITEM_ZINC": [
+    "Artisan Cave - B1F - Hidden",
+    "Battle Frontier Mart Pokemart",
+    "Lilycove City Department Store 3 F Pokemart Vitamins",
+    "Mt Pyre - Summit - Hidden",
+    "Route119 - Pokeball",
+    "Route121 - Pokeball",
+    "Route127 - Pokeball",
+    "Safari Zone - Northeast - Hidden",
+    "Slateport City Pokemart Energy Guru"
+  ],
+  "ITEM_ZOOM_LENS": [
+    "Slateport City Mart Black Market Expanded3"
+  ],
+  "ITEM_ZYGARDE_CUBE": [
+    "Slateport City Mart Black Market Expanded",
+    "Slateport City Mart Black Market Expanded2",
+    "Slateport City Mart Black Market Expanded3"
+  ]
+}

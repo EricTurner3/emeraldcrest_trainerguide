@@ -1,6 +1,9 @@
 # Emerald Crest Trainer Guide
 Trainer guide for Pokemon Emerald Crest ROM Hack. This hack uses a dynamic trainer system where the parties, moves and levels can shift based off your parties' level, the number of gym badges you have, and specific game settings.
 
+## AI Usage Disclaimer
+- AI was used during this project to assist in reversing the C code for accurate site data, and site scaffolding.
+
 ## License
 
 This project contains assets from multiple sources with different licensing terms:

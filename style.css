@@ -12,6 +12,7 @@ footer { max-width: 1400px; margin: 0 auto; padding: 0 20px 30px; color: #6a6058
 
 /* ---------- controls ---------- */
 .panel { background: var(--panel); border: 1px solid #ddd3c8; border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; }
+.top-panel {border-radius: 0 0 10px 10px !important; margin-top: -10px !important;}
 #form { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px 24px; }
 fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 legend { font-weight: 700; padding: 0; margin-bottom: 6px; }
@@ -95,3 +96,51 @@ a { color: var(--ink); text-decoration: underline; }
 
 @media (max-width: 1150px) { .row { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 @media (max-width: 760px)  { .row { grid-template-columns: repeat(2, minmax(0, 1fr)); } .levels { grid-template-columns: repeat(3, 1fr); } .grid.boss { grid-template-columns: 1fr; } }
+
+/* ---------- nav tabs ---------- */
+.tabs { display: flex; gap: 6px; text-align: center;  max-width: 1400px; margin: 0 auto; padding: 0 20px; position: sticky; top: 0; z-index: 5; background: var(--page); }
+.tab { flex: 1 1 0; font: inherit; text-decoration: unset !important; font-weight: 700; padding: 10px 12px; border: 1px solid #ddd3c8; border-bottom: 0; background: var(--panel); color: #a49b92; border-radius: 8px 8px 0 0; cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--ink); background: var(--panel); border-color: #ddd3c8; box-shadow: inset 0 2px 0 var(--red); }
+.tab:hover { color: var(--warn); }
+@media (max-width: 480px) { .tab { padding: 10px 6px; font-size: 13px; } }
+
+/* ---------- dex tab ---------- */
+.dex-controls { display: grid; grid-template-columns: 2fr 1fr auto; gap: 10px 16px; align-items: end; }
+.dex-search, .dex-gen { display: flex; flex-direction: column; gap: 3px; font-size: 13px; color: #c6c2bf; }
+.dex-controls input, .dex-controls select { font: inherit; padding: 6px 8px; border: 1px solid #c9bdb0; border-radius: 6px; background: #fff; }
+#dexCount { align-self: center; color: #d5cdc7; font-size: 13px; white-space: nowrap; }
+@media (max-width: 700px) { .dex-controls { grid-template-columns: 1fr; } #dexCount { text-align: left; } }
+
+.dex-wrap { overflow-x: auto; padding: 0; }
+.dex-table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 13px; }
+.dex-table th, .dex-table td { padding: 6px 10px; border-bottom: 1px solid #33302c; text-align: left; white-space: nowrap; }
+.dex-table thead th { position: sticky; top: 0; background: var(--panel); color: #d5cdc7; font-weight: 700; cursor: pointer; user-select: none; }
+.dex-table thead th:hover { color: var(--ink); }
+.dex-table thead th.sorted::after { content: ' ▾'; }
+.dex-table thead th.sorted.asc::after { content: ' ▴'; }
+.dex-table tbody tr:hover { background: rgba(255,255,255,.03); }
+.dex-table .dex-sprite { width: 40px; height: 40px; padding: 2px 6px; }
+.dex-table .sprite { height: 36px; width: 36px; border-width: 2px; }
+.dex-table .sprite .ph { font-size: 12px; }
+.dex-table .dex-name { font-weight: 700; white-space: normal; min-width: 110px; }
+.dex-table .dex-types { display: flex; gap: 3px; }
+.dex-table .dex-abilities, .dex-table .dex-items { white-space: normal; font-size: 12px; color: #c6c2bf; min-width: 130px; }
+.dex-table .dex-abilities .hidden-ab { color: #d5cdc7; font-style: italic; }
+.dex-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ---------- items tab ---------- */
+.items-controls { grid-template-columns: 2fr auto; }
+@media (max-width: 700px) { .items-controls { grid-template-columns: 1fr; } }
+.items-table th, .items-table td { vertical-align: middle; white-space: normal; }
+.items-table .item-sprite { width: 44px; padding: 4px 6px; }
+.items-table .item-sprite img.ico { width: 32px; height: 32px; display: block; }
+.items-table .item-sprite .ph-item { display: block; width: 32px; height: 32px; border-radius: 4px; background: var(--taupe); }
+.items-table .item-name { font-weight: 700; min-width: 140px; }
+.items-table .item-locs { min-width: 220px; }
+
+.pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px 3px 12px; border-radius: 12px;
+        font-size: 12px; font-weight: 600; color: #fff; margin: 2px 5px 2px 0; line-height: 1.5; }
+.pill b { font-size: 9px; font-weight: 800; letter-spacing: .4px; text-transform: uppercase; opacity: .8; }
+.pill-hidden   { background: #8a5a2e; }
+.pill-pokeball { background: #3b6fae; }
+.pill-store    { background: #3f7d4a; }

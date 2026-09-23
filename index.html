@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Emerald Crest Trainer Calculator</title>
+  <title>Emerald Crest Guide</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,19 @@
 </head>
 <body>
   <header class="top">
-    <h1>Emerald Crest Trainer Party Calculator</h1>
+    <h1>Emerald Crest Guide</h1>
   </header>
 
+  <nav class="tabs" aria-label="Section">
+    <button type="button" class="tab" id="tab-calc" data-view="calc" aria-selected="true">Calculator</button>
+    <button type="button" class="tab" id="tab-dex" data-view="dex" aria-selected="false">Dex</button>
+    <button type="button" class="tab" id="tab-items" data-view="items" aria-selected="false">Items</button>
+    <a href="https://docs.google.com/spreadsheets/d/1A8ljff9g0sGg98_8kNGiibkpHJQrDFlNZs3R9Jxhyd8/view?gid=0#gid=0" target="_blank" class="tab" id="tab-wild">Wild Encounters 🔗</a>
+  </nav>
+
   <main>
-    <section class="panel" aria-label="Inputs">
+    <section id="view-calc">
+    <section class="panel top-panel" aria-label="Inputs">
       <form id="form" autocomplete="off">
         <fieldset>
           <legend>Your party levels</legend>
@@ -76,11 +84,55 @@
       <div id="frame" class="frame" hidden></div>
       <div id="details" class="details" hidden></div>
     </section>
+    </section>
+
+    <section id="view-dex" hidden>
+      <section class="panel top-panel" aria-label="Dex filters">
+        <div class="dex-controls">
+          <label class="dex-search">Search
+            <input type="search" id="dexSearch" placeholder="Name, type, ability, item…" autocomplete="off">
+          </label>
+          <label class="dex-gen">Stats as of
+            <select id="dexGen"></select>
+          </label>
+          <div class="hint" id="dexCount"></div>
+        </div>
+      </section>
+
+      <section class="panel dex-wrap" aria-label="Pokédex table">
+        <table class="dex-table" id="dexTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+        <div id="dexEmpty" class="hint" hidden>No Pokémon match your search.</div>
+      </section>
+    </section>
+
+    <section id="view-items" hidden>
+      <section class="panel top-panel" aria-label="Item filters">
+        <div class="dex-controls items-controls">
+          <label class="dex-search">Search
+            <input type="search" id="itemSearch" placeholder="Item name or location…" autocomplete="off">
+          </label>
+          <div class="hint" id="itemsCount"></div>
+        </div>
+      </section>
+
+      <section class="panel dex-wrap" aria-label="Items table">
+        <table class="dex-table items-table" id="itemsTable">
+          <thead>
+            <tr><th></th><th>Item</th><th>Found in</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div id="itemsEmpty" class="hint" hidden>No items match your search.</div>
+      </section>
+    </section>
   </main>
 
   <footer>
-    Guide v1.0. Based off of Emerald Crest game version v1.0.F. Natures and abilities not currently implemented.<br/>
-    For information on emerald crest wild encounters, see <a href="https://docs.google.com/spreadsheets/d/1A8ljff9g0sGg98_8kNGiibkpHJQrDFlNZs3R9Jxhyd8/view?gid=0#gid=0" target="_blank">my google sheet here</a>.
+    Guide v2.0. Based off of Emerald Crest game version v1.0.F. Natures and abilities not currently implemented.<br/>
+    Sprites are copyright Game Freak and Nintendo. This guide is not affiliated with or endorsed by Nintendo or Game Freak.
   </footer>
   <script type="module" src="app.js"></script>
 </body>
